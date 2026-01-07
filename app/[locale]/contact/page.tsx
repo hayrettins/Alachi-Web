@@ -1,5 +1,14 @@
 import { Mail, MapPin, Phone } from 'lucide-react';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'SEO' });
+    return {
+        title: t('contactTitle'),
+        description: t('contactDescription')
+    };
+}
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;

@@ -1,5 +1,14 @@
 import Image from 'next/image';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'SEO' });
+    return {
+        title: t('diningTitle'),
+        description: t('diningDescription')
+    };
+}
 
 export default async function DiningPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;

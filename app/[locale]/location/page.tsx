@@ -13,6 +13,15 @@ import {
     Camera
 } from 'lucide-react';
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'SEO' });
+    return {
+        title: t('locationTitle'),
+        description: t('locationDescription')
+    };
+}
+
 export default async function LocationPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
     setRequestLocale(locale);

@@ -18,6 +18,15 @@ import {
     Waves
 } from 'lucide-react';
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'SEO' });
+    return {
+        title: t('roomsTitle'),
+        description: t('roomsDescription')
+    };
+}
+
 export default async function RoomsPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
     setRequestLocale(locale);
