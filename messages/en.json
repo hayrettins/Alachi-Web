@@ -136,6 +136,48 @@
     "izmir": "İzmir Airport - 45 minutes",
     "cesme": "Çeşme Marina - 20 minutes"
   },
+  "LocationPage": {
+    "hero": {
+      "title": "Discover Alaçatı",
+      "subtitle": "Nestled in the heart of history, steps away from the Aegean sea breeze"
+    },
+    "quickFacts": {
+      "title": "Quick Distances",
+      "walk": "5 min walk to Town Center",
+      "beach": "10 min drive to Beaches",
+      "surf": "15 min to Windsurf Centers",
+      "airport": "45 min to İzmir ADB Airport"
+    },
+    "attractions": {
+      "title": "What to Do in Alaçatı",
+      "market": {
+        "title": "Alaçatı Saturday Market",
+        "desc": "Famous local market with fresh produce, textiles, and antiques."
+      },
+      "windmills": {
+        "title": "Windmills",
+        "desc": "Iconic stone windmills dating back to the 19th century, offering panoramic views."
+      },
+      "beach": {
+        "title": "Ilıca & Alaçatı Beaches",
+        "desc": "Crystal clear turquoise waters and white sandy beaches."
+      },
+      "surf": {
+        "title": "World Class Surfing",
+        "desc": "One of the world's best spots for windsurfing and kitesurfing."
+      }
+    },
+    "transport": {
+      "title": "Getting Here",
+      "airport": "From İzmir Adnan Menderes Airport (ADB): 45-minute drive via O-31 highway.",
+      "transfer": "Private VIP transfer service available upon request.",
+      "parking": "Valet parking available for hotel guests."
+    },
+    "cta": {
+      "title": "Plan Your Visit Today",
+      "button": "Book Now"
+    }
+  },
   "Contact": {
     "title": "Get in Touch",
     "subtitle": "We're here to help plan your perfect Alaçatı stay",
