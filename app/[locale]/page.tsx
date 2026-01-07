@@ -1,6 +1,7 @@
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
+import { generateHotelSchema, generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/schema';
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -98,6 +99,25 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateHotelSchema())
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateLocalBusinessSchema())
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema([{ name: 'Home', url: '/' }]))
+        }}
+      />
     </div>
   );
 }

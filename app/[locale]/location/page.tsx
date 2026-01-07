@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { BookingButton } from '@/components/ui/BookingButton';
+import { generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/schema';
 import {
     MapPin,
     Car,
@@ -140,27 +141,16 @@ export default function LocationPage({ params: { locale } }: { params: { locale:
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'LocalBusiness',
-                        name: 'Alachi Hotel',
-                        image: 'https://alachihotel.com/hero.jpg',
-                        address: {
-                            '@type': 'PostalAddress',
-                            streetAddress: 'Alaçatı Mahallesi 11000 Sokak No:1', // Example
-                            addressLocality: 'Çeşme',
-                            addressRegion: 'İzmir',
-                            postalCode: '35930',
-                            addressCountry: 'TR'
-                        },
-                        geo: {
-                            '@type': 'GeoCoordinates',
-                            latitude: 38.282,
-                            longitude: 26.374
-                        },
-                        url: 'https://alachihotel.com',
-                        telephone: '+902321234567'
-                    }),
+                    __html: JSON.stringify(generateBreadcrumbSchema([
+                        { name: 'Home', url: '/' },
+                        { name: 'Location', url: '/location' }
+                    ]))
+                }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(generateLocalBusinessSchema())
                 }}
             />
         </div>

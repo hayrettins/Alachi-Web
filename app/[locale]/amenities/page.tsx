@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { setRequestLocale } from 'next-intl/server';
 import { BookingButton } from '@/components/ui/BookingButton';
+import { generateHotelSchema, generateBreadcrumbSchema } from '@/lib/schema';
 import {
     Waves,
     Wind,
@@ -77,24 +78,16 @@ export default function AmenitiesPage({ params: { locale } }: { params: { locale
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'BreadcrumbList',
-                        itemListElement: [
-                            {
-                                '@type': 'ListItem',
-                                position: 1,
-                                name: 'Home',
-                                item: 'https://alachihotel.com',
-                            },
-                            {
-                                '@type': 'ListItem',
-                                position: 2,
-                                name: 'Amenities',
-                                item: 'https://alachihotel.com/amenities',
-                            },
-                        ],
-                    }),
+                    __html: JSON.stringify(generateBreadcrumbSchema([
+                        { name: 'Home', url: '/' },
+                        { name: 'Amenities', url: '/amenities' }
+                    ]))
+                }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(generateHotelSchema())
                 }}
             />
 

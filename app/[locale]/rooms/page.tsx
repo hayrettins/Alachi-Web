@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { BookingButton } from '@/components/ui/BookingButton';
+import { generateRoomSchema, generateBreadcrumbSchema } from '@/lib/schema';
 
 const rooms = [
     {
@@ -61,9 +62,25 @@ export default async function RoomsPage({ params }: { params: Promise<{ locale: 
                                 </BookingButton>
                             </div>
                         </div>
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify(generateRoomSchema(room))
+                            }}
+                        />
                     </div>
                 ))}
             </div>
+
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(generateBreadcrumbSchema([
+                        { name: 'Home', url: '/' },
+                        { name: 'Rooms', url: '/rooms' }
+                    ]))
+                }}
+            />
         </div>
     );
 }
