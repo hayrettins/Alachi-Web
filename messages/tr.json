@@ -58,9 +58,27 @@
             "fishingFest": "Alaçatı Balık Festivali"
         },
         "cta": {
-            "title": "Hayalinizdeki Kaçışa Hazır Mısınız?",
-            "description": "En iyi fiyatlar ve otantik Alaçatı deneyimi için doğrudan rezervasyon yapın",
-            "button": "Müsaitlik Kontrol Et"
+            "title": "Alaçatı Hikayeniz Burada Başlıyor",
+            "description": "Feng Shui uyumu, tarladan sofraya kahvaltı ve otantik Türk misafirperverliği sizi bekliyor.",
+            "button": "Rezervasyon Yap"
+        },
+        "timeline": {
+            "title": "Alachi'de Bir Gün",
+            "morning": "09:00 - Urlachi Çiftliği'nden Organik Kahvaltı",
+            "noon": "12:00 - Havuzda Canlandırıcı Bir Yüzme",
+            "afternoon": "15:00 - Geleneksel Türk Hamamı Ritüeli",
+            "evening": "19:00 - Yel Değirmenlerine Gün Batımı Yürüyüşü",
+            "night": "21:00 - Alaçatı Çarşı'da Akşam Yemeği"
+        },
+        "testimonials": {
+            "title": "Misafir Yorumları",
+            "subtitle": "Yeni Alachi deneyimini ilk yaşayanlardan olun",
+            "placeholder": "Bizi ziyaret edin ve hikayenizi paylaşın."
+        },
+        "urlachiSection": {
+            "title": "Tarlamızdan Sofranıza",
+            "description": "Kardeş çiftliğimiz Urlachi, kahvaltı sofranız için %100 organik ürünler sağlıyor. Günlük toplanan zeytinler, yumurtalar ve sebzelerle gerçek Ege lezzetini deneyimleyin.",
+            "link": "Urlachi'yi Keşfedin"
         }
     },
     "Rooms": {

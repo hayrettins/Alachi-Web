@@ -58,9 +58,27 @@
       "fishingFest": "Alaçatı Fishing Festival"
     },
     "cta": {
-      "title": "Ready for Your Dream Escape?",
-      "description": "Book direct for best rates and authentic Alaçatı experience",
-      "button": "Check Availability"
+      "title": "Your Alaçatı Story Begins Here",
+      "description": "Feng Shui harmony, farm-fresh breakfast, and authentic Turkish hospitality await.",
+      "button": "Book Your Stay Now"
+    },
+    "timeline": {
+      "title": "A Day at Alachi",
+      "morning": "09:00 AM - Organic Breakfast from Urlachi Farm",
+      "noon": "12:00 PM - Energizing Swim in the Pool",
+      "afternoon": "03:00 PM - Traditional Turkish Hamam Ritual",
+      "evening": "07:00 PM - Sunset Walk to Windmills",
+      "night": "09:00 PM - Dinner in Alaçatı Town"
+    },
+    "testimonials": {
+      "title": "Guest Reviews",
+      "subtitle": "Be among the first to experience the new Alachi",
+      "placeholder": "Visit us and share your story."
+    },
+    "urlachiSection": {
+      "title": "From Our Farm to Your Table",
+      "description": "Our sister farm, Urlachi, provides 100% organic produce for your breakfast table. Experience the true taste of the Aegean with olives, eggs, and vegetables harvested daily.",
+      "link": "Discover Urlachi"
     }
   },
   "Rooms": {
