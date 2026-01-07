@@ -6,12 +6,171 @@
     "contact": "Contact",
     "book": "Book Now"
   },
-  "Home": {
-    "welcome": "Welcome to Paradise"
-  },
   "Booking": {
     "check_in": "Check In",
     "guests": "Guests",
     "check_availability": "Check Availability"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Experience Alaçatı Year-Round",
+      "subtitle": "Alachi Hotel, inspired by Feng Shui and Chi philosophy, offers peaceful luxury with distinctive architecture and organic breakfast from our Urlachi Farm",
+      "bookNow": "Book Your Stay"
+    },
+    "philosophy": {
+      "title": "Where Ancient Wisdom Meets Modern Luxury",
+      "description": "The only Feng Shui-designed hotel in Alaçatı, Alachi offers harmonious energy flow, traditional stone architecture, and connection to nature"
+    },
+    "features": {
+      "title": "Alachi Experience",
+      "alacati": {
+        "title": "Heart of Alaçatı",
+        "description": "Four seasons of vacation, peace, entertainment in the Aegean's most charming town"
+      },
+      "breakfast": {
+        "title": "Farm-to-Table Breakfast",
+        "description": "Every morning, organic products fresh from our Urlachi Farm"
+      },
+      "urlachi": {
+        "title": "Urlachi Farm Connection",
+        "description": "Experience authentic farm life with organic produce, vineyard tours, and artichoke harvests"
+      },
+      "spa": {
+        "title": "Turkish Hamam & SPA",
+        "description": "Traditional Turkish rituals in a serene setting designed for complete relaxation"
+      },
+      "pool": {
+        "title": "Seasonal Comfort",
+        "description": "Summer pool paradise, winter fireplace warmth - comfort in every season"
+      },
+      "design": {
+        "title": "Feng Shui Design",
+        "description": "Harmonious spaces promoting positive energy flow and inner peace"
+      }
+    },
+    "events": {
+      "title": "Alaçatı Events & Festivals",
+      "subtitle": "Stay with us during Alaçatı's most celebrated events",
+      "herbFestival": "Alaçatı Herb Festival",
+      "surfFestival": "Alaçatı Surf Festival",
+      "artichokeFestival": "Urla Artichoke Festival",
+      "tastingAlacati": "Tasting Alaçatı Food Festival",
+      "fishingFest": "Alaçatı Fishing Festival"
+    },
+    "cta": {
+      "title": "Ready for Your Dream Escape?",
+      "description": "Book direct for best rates and authentic Alaçatı experience",
+      "button": "Check Availability"
+    }
+  },
+  "Rooms": {
+    "title": "Rooms & Suites",
+    "subtitle": "Each room designed with Feng Shui principles for harmony and rest",
+    "standard": {
+      "name": "Standard Stone Room",
+      "description": "Authentic Alaçatı stone walls, traditional architecture, modern amenities",
+      "features": [
+        "King or Twin beds",
+        "Stone architecture",
+        "Garden view",
+        "Free WiFi",
+        "Mini bar",
+        "Safe"
+      ]
+    },
+    "deluxe": {
+      "name": "Deluxe Suite",
+      "description": "Spacious suite with sitting area, balcony, and premium furnishings",
+      "features": [
+        "King bed",
+        "Separate sitting area",
+        "Private balcony",
+        "Premium amenities",
+        "Nespresso machine"
+      ]
+    },
+    "family": {
+      "name": "Family Room",
+      "description": "Perfect for families, connecting rooms available",
+      "features": [
+        "2 bedrooms",
+        "Family bathroom",
+        "Extra space",
+        "Kid-friendly"
+      ]
+    }
+  },
+  "Amenities": {
+    "title": "Hotel Amenities",
+    "pool": {
+      "title": "Outdoor Pool",
+      "description": "Seasonal outdoor pool surrounded by gardens, loungers, and Aegean atmosphere"
+    },
+    "hamam": {
+      "title": "Turkish Hamam",
+      "description": "Traditional Turkish bath experience with authentic marble and skilled therapists"
+    },
+    "spa": {
+      "title": "SPA Services",
+      "description": "Massage, body treatments, and wellness rituals in serene environment"
+    },
+    "breakfast": {
+      "title": "Organic Breakfast",
+      "description": "Fresh vegetables, cheeses, jams from Urlachi Farm served daily"
+    },
+    "garden": {
+      "title": "Gardens",
+      "description": "Landscaped gardens with seating areas and flowering bougainvillea"
+    },
+    "parking": {
+      "title": "Free Parking",
+      "description": "Complimentary parking for all guests"
+    }
+  },
+  "Location": {
+    "title": "Discover Alaçatı",
+    "nearbyTitle": "Nearby Attractions",
+    "beach": "Alaçatı Beach - 10 minutes",
+    "center": "Town Center - 5 minutes walk",
+    "windsurf": "Windsurf Beach - 15 minutes",
+    "izmir": "İzmir Airport - 45 minutes",
+    "cesme": "Çeşme Marina - 20 minutes"
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "subtitle": "We're here to help plan your perfect Alaçatı stay",
+    "address": "Alaçatı Mahallesi, İzmir, Turkey",
+    "phone": "+90 232 716 66 66",
+    "email": "info@alachihotel.com",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Your Message",
+      "checkIn": "Check-in Date",
+      "checkOut": "Check-out Date",
+      "guests": "Number of Guests",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! We'll respond within 24 hours",
+      "error": "Something went wrong. Please try again or call us directly."
+    }
+  },
+  "Footer": {
+    "about": "About Alachi",
+    "aboutText": "Feng Shui-inspired boutique hotel in the heart of Alaçatı",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "newsletter": "Newsletter",
+    "newsletterText": "Subscribe for special offers",
+    "copyright": "© 2026 Alachi Hotel. All rights reserved.",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  },
+  "SEO": {
+    "homeTitle": "Alachi Hotel - Boutique Feng Shui Hotel in Alaçatı, İzmir",
+    "homeDescription": "Experience authentic Alaçatı at Alachi Hotel. Feng Shui design, organic breakfast from Urlachi Farm, Turkish Hamam, traditional stone architecture.",
+    "homeKeywords": "Alaçatı hotel, boutique hotel Alacati, Feng Shui hotel, Alaçatı stone hotel, Turkish hamam Alacati, organic breakfast hotel, Urlachi farm"
   }
 }

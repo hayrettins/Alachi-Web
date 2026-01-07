@@ -28,11 +28,12 @@ export function Footer() {
                     </div>
                 </div>
                 <div>
-                    <h4 className="font-bold uppercase tracking-wider mb-6 text-sm">Newsletter</h4>
-                    <p className="text-slate-400 text-sm mb-4">Subscribe for offers and updates.</p>
-                    <div className="flex">
-                        <input type="email" placeholder="Email Address" className="bg-slate-900 border border-slate-800 px-4 py-2 text-sm w-full focus:outline-none focus:border-slate-700" />
-                        <button className="bg-white text-slate-900 px-4 py-2 text-sm font-medium uppercase hover:bg-gray-100">Go</button>
+                    <h4 className="font-bold uppercase tracking-wider mb-6 text-sm">Follow Us</h4>
+                    <p className="text-slate-400 text-sm mb-4">Stay updated with our latest offers.</p>
+                    <div className="flex space-x-4">
+                        {/* Placeholder Social Icons */}
+                        <a href="#" className="text-slate-400 hover:text-white">Instagram</a>
+                        <a href="#" className="text-slate-400 hover:text-white">Facebook</a>
                     </div>
                 </div>
             </div>

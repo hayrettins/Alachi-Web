@@ -6,12 +6,171 @@
         "contact": "İletişim",
         "book": "Rezervasyon"
     },
-    "Home": {
-        "welcome": "Cennete Hoşgeldiniz"
-    },
     "Booking": {
         "check_in": "Giriş Tarihi",
         "guests": "Misafir",
         "check_availability": "Müsaitlik Kontrol Et"
+    },
+    "HomePage": {
+        "hero": {
+            "title": "Alaçatı'yı Dört Mevsim Yaşayın",
+            "subtitle": "Feng Shui ve Chi felsefesinden ilham alan Alachi Otel, özgün mimarisi ve Urlachi Çiftliği'nden gelen organik kahvaltısı ile huzurlu bir lüks sunuyor",
+            "bookNow": "Rezervasyon Yap"
+        },
+        "philosophy": {
+            "title": "Kadim Bilgelik Modern Lüksle Buluşuyor",
+            "description": "Alaçatı'nın tek Feng Shui tasarımlı oteli Alachi, uyumlu enerji akışı, geleneksel taş mimarisi ve doğa ile bütünleşen bir yaşam sunuyor"
+        },
+        "features": {
+            "title": "Alachi Deneyimi",
+            "alacati": {
+                "title": "Alaçatı'nın Kalbi",
+                "description": "Egenin en büyüleyici kasabasında dört mevsim tatil, huzur ve eğlence"
+            },
+            "breakfast": {
+                "title": "Tarladan Sofraya Kahvaltı",
+                "description": "Her sabah Urlachi Çiftliği'mizden gelen taptaze organik ürünlerle hazırlanan eşsiz kahvaltı"
+            },
+            "urlachi": {
+                "title": "Urlachi Çiftliği Bağlantısı",
+                "description": "Organik ürünler, bağ turları ve enginar hasadı ile otantik çiftlik hayatını deneyimleyin"
+            },
+            "spa": {
+                "title": "Türk Hamamı & SPA",
+                "description": "Tamamen rahatlamanız için tasarlanmış huzurlu bir ortamda geleneksel Türk ritüelleri"
+            },
+            "pool": {
+                "title": "Mevsimsel Konfor",
+                "description": "Yazın havuz keyfi, kışın şömine sıcaklığı - her mevsimde ayrıcalıklı konfor"
+            },
+            "design": {
+                "title": "Feng Shui Tasarımı",
+                "description": "Pozitif enerji akışını ve iç huzuru destekleyen uyumlu yaşam alanları"
+            }
+        },
+        "events": {
+            "title": "Alaçatı Etkinlikleri & Festivalleri",
+            "subtitle": "Alaçatı'nın en ünlü festivallerinde bizimle kalın",
+            "herbFestival": "Alaçatı Ot Festivali",
+            "surfFestival": "Alaçatı Sörf Festivali",
+            "artichokeFestival": "Urla Enginar Festivali",
+            "tastingAlacati": "Tasting Alaçatı",
+            "fishingFest": "Alaçatı Balık Festivali"
+        },
+        "cta": {
+            "title": "Hayalinizdeki Kaçışa Hazır Mısınız?",
+            "description": "En iyi fiyatlar ve otantik Alaçatı deneyimi için doğrudan rezervasyon yapın",
+            "button": "Müsaitlik Kontrol Et"
+        }
+    },
+    "Rooms": {
+        "title": "Odalar & Süitler",
+        "subtitle": "Her oda, uyum ve dinlenme için Feng Shui prensipleriyle tasarlandı",
+        "standard": {
+            "name": "Standart Taş Oda",
+            "description": "Otantik Alaçatı taş duvarları, geleneksel mimari, modern olanaklar",
+            "features": [
+                "King veya İkiz yatak",
+                "Taş mimari",
+                "Bahçe manzarası",
+                "Ücretsiz WiFi",
+                "Mini bar",
+                "Kasa"
+            ]
+        },
+        "deluxe": {
+            "name": "Deluxe Süit",
+            "description": "Oturma alanı, balkon ve birinci sınıf mobilyalarla geniş süit",
+            "features": [
+                "King yatak",
+                "Ayrı oturma alanı",
+                "Özel balkon",
+                "Premium bukletler",
+                "Nespresso makinesi"
+            ]
+        },
+        "family": {
+            "name": "Aile Odası",
+            "description": "Aileler için ideal, bağlantılı oda seçeneği",
+            "features": [
+                "2 yatak odası",
+                "Aile banyosu",
+                "Ekstra geniş alan",
+                "Çocuk dostu"
+            ]
+        }
+    },
+    "Amenities": {
+        "title": "Otel Olanakları",
+        "pool": {
+            "title": "Açık Havuz",
+            "description": "Bahçeler, şezlonglar ve Ege atmosferi ile çevrili sezonluk açık havuz"
+        },
+        "hamam": {
+            "title": "Türk Hamamı",
+            "description": "Otantik mermer ve uzman terapistler eşliğinde geleneksel Türk hamamı deneyimi"
+        },
+        "spa": {
+            "title": "SPA Hizmetleri",
+            "description": "Huzurlu bir ortamda masaj, vücut bakımları ve wellness ritüelleri"
+        },
+        "breakfast": {
+            "title": "Organik Kahvaltı",
+            "description": "Urlachi Çiftliği'nden günlük gelen taze sebzeler, peynirler ve reçeller"
+        },
+        "garden": {
+            "title": "Bahçeler",
+            "description": "Oturma alanları ve çiçek açan begonvillerle bezeli peyzajlı bahçeler"
+        },
+        "parking": {
+            "title": "Ücretsiz Otopark",
+            "description": "Tüm misafirlerimiz için ücretsiz otopark hizmeti"
+        }
+    },
+    "Location": {
+        "title": "Alaçatı'yı Keşfedin",
+        "nearbyTitle": "Yakındaki Gezilecek Yerler",
+        "beach": "Alaçatı Plajı - 10 dakika",
+        "center": "Çarşı Merkezi - 5 dakika yürüme",
+        "windsurf": "Sörf Okulları - 15 dakika",
+        "izmir": "İzmir Havalimanı - 45 dakika",
+        "cesme": "Çeşme Marina - 20 dakika"
+    },
+    "Contact": {
+        "title": "İletişime Geçin",
+        "subtitle": "Kusursuz Alaçatı tatilinizi planlamak için buradayız",
+        "address": "Alaçatı Mahallesi, İzmir, Türkiye",
+        "phone": "+90 232 716 66 66",
+        "email": "info@alachihotel.com",
+        "form": {
+            "name": "Ad Soyad",
+            "email": "E-posta Adresi",
+            "phone": "Telefon Numarası",
+            "message": "Mesajınız",
+            "checkIn": "Giriş Tarihi",
+            "checkOut": "Çıkış Tarihi",
+            "guests": "Misafir Sayısı",
+            "submit": "Mesaj Gönder",
+            "sending": "Gönderiliyor...",
+            "success": "Teşekkürler! 24 saat içinde size dönüş yapacağız",
+            "error": "Bir hata oluştu. Lütfen tekrar deneyin veya bizi arayın."
+        }
+    },
+    "Footer": {
+        "about": "Alachi Hakkında",
+        "aboutText": "Alaçatı'nın kalbinde Feng Shui ilhamlı butik otel",
+        "quickLinks": "Hızlı Bağlantılar",
+        "contact": "İletişim",
+        "followUs": "Bizi Takip Edin",
+        "newsletter": "Bülten",
+        "newsletterText": "Özel fırsatlar için abone olun",
+        "copyright": "© 2026 Alachi Otel. Tüm hakları saklıdır.",
+        "terms": "Şartlar & Koşullar",
+        "privacy": "Gizlilik Politikası"
+    },
+    "SEO": {
+        "homeTitle": "Alachi Otel - Alaçatı İzmir'de Butik Feng Shui Oteli",
+        "homeDescription": "Alachi Otel'de otantik Alaçatı deneyimini yaşayın. Feng Shui tasarımı, Urlachi Çiftliği'nden organik kahvaltı, Türk Hamamı ve geleneksel taş mimari.",
+        "homeKeywords": "Alaçatı otel, butik otel alaçatı, Feng Shui otel, taş otel alaçatı, türk hamamı, organik kahvaltı, Urlachi çiftliği, çeşme otel"
     }
 }
