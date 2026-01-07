@@ -13,23 +13,57 @@
   },
   "HomePage": {
     "hero": {
-      "title": "Experience Alaçatı Year-Round",
-      "subtitle": "Alachi Hotel, inspired by Feng Shui and Chi philosophy, offers peaceful luxury with distinctive architecture and organic breakfast from our Urlachi Farm",
-      "bookNow": "Book Your Stay"
+      "title": "Alachi Hotel",
+      "subtitle": "Where Feng Shui Meets Alaçatı",
+      "description": "Experience tranquility in our boutique stone hotel, where ancient Feng Shui principles harmonize with the vibrant spirit of Alaçatı. Discover authentic Turkish hospitality, organic farm-to-table dining from our sister property Urlachi, and the timeless beauty of Aegean architecture.",
+      "bookNow": "Book Your Stay",
+      "cta": "Explore Our Sanctuary"
     },
     "philosophy": {
-      "title": "Where Ancient Wisdom Meets Modern Luxury",
-      "description": "The only Feng Shui-designed hotel in Alaçatı, Alachi offers harmonious energy flow, traditional stone architecture, and connection to nature"
+      "title": "The Feng Shui Philosophy",
+      "subtitle": "Harmony by Design",
+      "description": "Alachi Hotel is Alaçatı's first and only accommodation designed entirely on Feng Shui principles. Every stone placement, every window orientation, every garden path has been carefully crafted to channel positive energy (Chi) and create spaces of profound tranquility. Our architecture doesn't just shelter—it nurtures. The ancient Greek stone walls breathe history while our Feng Shui enhancements guide the flow of natural energy, creating an atmosphere where guests instinctively feel balanced, restored, and connected to both the earth and the Aegean breeze.",
+      "principles": {
+        "balance": {
+          "title": "Balance & Flow",
+          "description": "Each room and common space is positioned to maximize natural light while maintaining thermal comfort, following the Feng Shui principle of balanced elements."
+        },
+        "nature": {
+          "title": "Nature Connection",
+          "description": "Our gardens feature native Mediterranean plants arranged to create energy pathways, meditation corners, and visual harmony that calms the mind."
+        },
+        "restoration": {
+          "title": "Energy Restoration",
+          "description": "Stone walls absorb heat during the day and release it at night, creating a natural breathing rhythm that aligns with your body's circadian cycles."
+        }
+      }
     },
     "features": {
-      "title": "Alachi Experience",
+      "title": "The Alachi Experience",
+      "subtitle": "Six Pillars of Exceptional Stay",
       "alacati": {
         "title": "Heart of Alaçatı",
-        "description": "Four seasons of vacation, peace, entertainment in the Aegean's most charming town"
+        "description": "Nestled in Alaçatı's historic center, surrounded by iconic stone windmills, cobblestone streets, and the legendary Aegean winds that attract windsurfers worldwide. Walk to artisan shops, waterfront tavernas, and the famous Saturday market in under 10 minutes."
       },
       "breakfast": {
-        "title": "Farm-to-Table Breakfast",
-        "description": "Every morning, organic products fresh from our Urlachi Farm"
+        "title": "Urlachi Farm-to-Table",
+        "description": "Begin each day with an organic Turkish kahvaltı featuring produce harvested that morning from our sister property, Urlachi Farm in Urla. Vine-ripened tomatoes, hand-pressed olive oil, farm eggs, wildflower honey, and homemade jams that taste like Turkish sunshine."
+      },
+      "hamam": {
+        "title": "Authentic Turkish Hamam",
+        "description": "Experience the 500-year-old ritual of Turkish bathing in our traditional hamam. Marble heated to perfection, eucalyptus-scented steam, and expert kese exfoliation followed by olive oil soap massage. This isn't a spa imitation—this is cultural heritage preserved."
+      },
+      "design": {
+        "title": "Feng Shui Sanctuary",
+        "description": "Every design choice serves your wellbeing. Rooms face optimal directions for morning sun and evening breeze. Stone walls regulate temperature naturally. Garden paths guide contemplative walks. Sleep deeper, wake refreshed, leave restored."
+      },
+      "seasonal": {
+        "title": "Seasonal Harmony",
+        "description": "Spring brings wildflowers and the Herb Festival. Summer pulses with windsurfing energy. Autumn offers harvest tranquility and the Artichoke Festival. Winter wraps you in hamam warmth and local authenticity. Every season reveals a different Alaçatı, all beautiful."
+      },
+      "garden": {
+        "title": "Meditation Gardens",
+        "description": "Hidden courtyards with century-old olive trees, fragrant jasmine, and meditation alcoves designed on Feng Shui principles. Morning yoga space, afternoon reading nooks, evening stargazing corners. Your private oasis within our sanctuary."
       },
       "urlachi": {
         "title": "Urlachi Farm Connection",
@@ -42,22 +76,20 @@
       "pool": {
         "title": "Seasonal Comfort",
         "description": "Summer pool paradise, winter fireplace warmth - comfort in every season"
-      },
-      "design": {
-        "title": "Feng Shui Design",
-        "description": "Harmonious spaces promoting positive energy flow and inner peace"
-      },
-      "garden": {
-        "title": "Peaceful Gardens",
-        "description": "Lush greenery and blooming bougainvillea creating a serene sanctuary"
       }
     },
+    "urlachiSection": {
+      "title": "The Urlachi Farm Story",
+      "subtitle": "From Our Fields to Your Table",
+      "description": "Twenty kilometers south in Urla's lush countryside, our sister property Urlachi operates a regenerative organic farm and boutique guesthouse. What grows there in the morning arrives at your breakfast table by afternoon—no middlemen, no storage, no compromise. This isn't farm-to-table marketing; this is family-to-family care. Tomatoes still warm from the sun. Herbs picked at peak flavor. Eggs from free-roaming chickens. This is how Turkish villages have eaten for centuries, and now it's how you'll eat at Alachi.",
+      "link": "Discover Urlachi Farm"
+    },
     "events": {
-      "title": "Alaçatı Events & Festivals",
-      "subtitle": "Stay with us during Alaçatı's most celebrated events",
-      "herbFestival": "Alaçatı Herb Festival",
-      "surfFestival": "Alaçatı Surf Festival",
-      "artichokeFestival": "Urla Artichoke Festival",
+      "title": "Alaçatı & Urla Festivals",
+      "subtitle": "Experience Local Culture",
+      "herbFestival": "Alaçatı Ot Festivali - April 18-20, 2026. Celebrate Aegean herbs with workshops, tastings, and traditional healing practices. The streets fill with the scent of sage, thyme, and wild oregano.",
+      "surfFestival": "Alaçatı Surf Festival - August 15-17, 2026. International windsurfers and kitesurfers compete in Alaçatı's legendary winds. Beach parties, live music, and adrenaline-charged energy.",
+      "artichokeFestival": "Urla Enginar Festivali - May 2-4, 2026. Urla's famous artichoke harvest celebration with farm tours, cooking demonstrations, and the best artichoke dishes you'll ever taste.",
       "tastingAlacati": "Tasting Alaçatı Food Festival",
       "fishingFest": "Alaçatı Fishing Festival"
     },
@@ -78,11 +110,6 @@
       "title": "Guest Reviews",
       "subtitle": "Be among the first to experience the new Alachi",
       "placeholder": "Visit us and share your story."
-    },
-    "urlachiSection": {
-      "title": "From Our Farm to Your Table",
-      "description": "Our sister farm, Urlachi, provides 100% organic produce for your breakfast table. Experience the true taste of the Aegean with olives, eggs, and vegetables harvested daily.",
-      "link": "Discover Urlachi"
     }
   },
   "Rooms": {
@@ -152,25 +179,69 @@
   },
   "Amenities": {
     "title": "Hotel Amenities",
-    "pool": {
-      "title": "Outdoor Pool",
-      "description": "Seasonal outdoor pool surrounded by gardens, loungers, and Aegean atmosphere"
+    "hero": {
+      "title": "Alachi's World of Comfort",
+      "subtitle": "Every Detail Designed for Your Wellbeing"
     },
     "hamam": {
-      "title": "Turkish Hamam",
-      "description": "Traditional Turkish bath experience with authentic marble and skilled therapists"
+      "title": "Traditional Turkish Hamam",
+      "description": "Step into 500 years of bathing tradition in our authentic marble hamam. The ritual begins with steam to open your pores, followed by vigorous kese exfoliation that removes dead skin and stimulates circulation. Next comes a luxurious foam massage with olive oil soap, then a cool-water rinse and rest period with Turkish tea. This isn't a modern spa mimicking tradition—this is the real ceremony, performed by trained hamam attendants who learned the craft from their grandmothers. The heated marble göbek taşı (navel stone) in the center has been warming weary travelers for generations. Allow 90 minutes for the full experience. Your skin will glow for days.",
+      "features": [
+        "Authentic marble göbek taşı (heated navel stone)",
+        "Traditional kese exfoliation with coarse mitts",
+        "Olive oil soap foam massage",
+        "Separate sessions or private bookings available",
+        "Complimentary Turkish tea and rest period",
+        "Couples hamam experience by appointment"
+      ]
     },
     "spa": {
-      "title": "SPA Services",
-      "description": "Massage, body treatments, and wellness rituals in serene environment"
+      "title": "Alachi SPA & Wellness",
+      "description": "Beyond the hamam, our spa offers contemporary wellness treatments infused with Aegean botanicals. Choose from aromatherapy massages using local olive oil and lavender, reflexology sessions to restore energy balance, or facial treatments featuring Urlachi farm honey and herbs. All treatments incorporate Feng Shui principles—bed positioning, essential oil selection, and energy flow techniques that enhance relaxation. Book treatments in advance; our therapists are in high demand during peak season.",
+      "features": [
+        "Aromatherapy massage (60/90 min)",
+        "Turkish olive oil body treatments",
+        "Urlachi honey & herb facials",
+        "Reflexology and energy balancing",
+        "Couples treatment room available",
+        "Garden massage cabana (seasonal)"
+      ]
+    },
+    "pool": {
+      "title": "Seasonal Outdoor Pool",
+      "description": "Our pool operates from May through October, offering a refreshing retreat during Alaçatı's warm months. Positioned according to Feng Shui principles to catch morning sun and afternoon shade, the pool area features comfortable loungers, poolside service, and views of our meditation gardens. The water temperature is maintained naturally—cool enough to refresh, warm enough to enjoy. This isn't an Olympic lap pool; it's a contemplative space for floating, reading, and watching the sky change colors. Children are welcome with supervision.",
+      "features": [
+        "Seasonal operation (May-October)",
+        "Natural temperature regulation",
+        "Poolside drink and snack service",
+        "Garden views and olive tree shade",
+        "Loungers and daybeds",
+        "Towel service included"
+      ]
     },
     "breakfast": {
-      "title": "Organic Breakfast",
-      "description": "Fresh vegetables, cheeses, jams from Urlachi Farm served daily"
+      "title": "Organic Turkish Kahvaltı",
+      "description": "Turkish breakfast isn't a meal; it's a ritual, a philosophy, a celebration of abundance. At Alachi, we honor this tradition with a spread featuring 30+ items, most sourced from Urlachi Farm. Imagine: thick slices of village bread with crusts that crackle, farm butter the color of butter should be, six types of cheese including aged kaşar and creamy lor, olives harvested from our own trees, sun-dried tomatoes, cucumber and tomato slices that actually taste like vegetables, free-range eggs cooked to order, homemade jams preserving summer fruits, wildflower honey, fresh Aegean herbs, sigara böreği pastries, and unlimited Turkish tea or coffee. Dietary restrictions? We adapt gladly—vegan, gluten-free, whatever you need. Breakfast is served until 11 AM because mornings shouldn't be rushed.",
+      "features": [
+        "30+ item Turkish kahvaltı spread",
+        "Urlachi Farm organic produce daily",
+        "Free-range eggs, artisanal cheeses",
+        "Homemade jams and village bread",
+        "Vegan and gluten-free options",
+        "Served 7:30-11:00 AM in garden or dining room"
+      ]
     },
     "garden": {
-      "title": "Gardens",
-      "description": "Landscaped gardens with seating areas and flowering bougainvillea"
+      "title": "Feng Shui Gardens",
+      "description": "Our gardens aren't decoration; they're therapeutic spaces designed to restore your energy. Pathways curve gently to slow your pace and calm your mind. Seating alcoves are positioned where Feng Shui masters identify strong Chi flow. Century-old olive trees provide dappled shade and grounding energy. Jasmine, rosemary, and lavender release aromatherapy as you pass. Hidden corners invite meditation or journaling. Morning yoga space, afternoon reading nooks, evening stargazing spots—every hour reveals new magic. The gardens follow Mediterranean rhythms: vibrant in spring, lush in summer, golden in autumn, quietly beautiful in winter.",
+      "features": [
+        "Feng Shui energy flow design",
+        "Century-old olive trees",
+        "Meditation and yoga spaces",
+        "Native Mediterranean botanicals",
+        "Multiple seating alcoves",
+        "Evening ambient lighting"
+      ]
     },
     "parking": {
       "title": "Free Parking",
@@ -180,6 +251,53 @@
   "Location": {
     "title": "Discover Alaçatı",
     "nearbyTitle": "Nearby Attractions",
+    "hero": {
+      "title": "Perfectly Positioned",
+      "subtitle": "Where Alaçatı Meets Tranquility"
+    },
+    "intro": "Alachi sits in the heart of historic Alaçatı, surrounded by the iconic stone windmills and cobblestone streets that define this Aegean jewel. Yet despite our central location, our Feng Shui design creates a sanctuary of quietude—you're steps from vibrant cafés and artisan shops, yet the moment you enter our gates, the world softens.",
+    "distances": {
+      "title": "Getting Around",
+      "items": {
+        "center": "Alaçatı Center: 800m (10-minute walk)",
+        "ilicaBeach": "İlıca Beach (windsurfing): 4km (8-minute drive)",
+        "urla": "Urla Town & Wineries: 12km (15-minute drive)",
+        "cesme": "Çeşme Marina: 10km (12-minute drive)",
+        "airport": "İzmir Adnan Menderes Airport: 80km (45-minute drive)"
+      }
+    },
+    "experiences": {
+      "windsurfing": {
+        "title": "Windsurfing Capital",
+        "description": "Alaçatı is world-famous among windsurfers for consistent thermal winds that blow May through September. İlıca Beach hosts international competitions and numerous surf schools. Even if you've never tried, Alaçatı's flat-water bay makes it the perfect place to learn."
+      },
+      "wineries": {
+        "title": "Urla Wine Route",
+        "description": "Fifteen minutes south, Urla's microclimate produces exceptional wines from indigenous grapes like Bornova Misketi. Tour family-owned wineries, taste vintages with winemakers, and discover why Urla is being called the new Napa Valley."
+      },
+      "culture": {
+        "title": "Stone Architecture",
+        "description": "Alaçatı's Greek stone houses and windmills are living museums. Wander cobblestone streets, photograph bougainvillea-draped walls, shop for hand-woven textiles, and sip Turkish coffee in courtyards that have witnessed centuries."
+      }
+    },
+    "seasonal": {
+      "spring": {
+        "title": "Spring (March-May)",
+        "description": "Wildflowers blanket the hills, the Herb Festival celebrates Aegean botanicals, temperatures hover around perfect (18-25°C), and wineries open their doors for the season. Fewer crowds, lower prices, maximum beauty."
+      },
+      "summer": {
+        "title": "Summer (June-August)",
+        "description": "Peak season brings vibrant energy: windsurfers fill İlıca Bay, beach clubs play music until dawn, and the Surf Festival draws international athletes. Hot days (28-35°C) cooled by constant sea breeze. Book ahead."
+      },
+      "autumn": {
+        "title": "Autumn (September-November)",
+        "description": "The Artichoke Festival honors Urla's harvest, grape season means winery tours and fresh wine, temperatures mellow (20-28°C), crowds thin, and locals reclaim their village. The secret best time to visit."
+      },
+      "winter": {
+        "title": "Winter (December-February)",
+        "description": "See authentic Alaçatı without tourist veneer. Cozy hamam sessions, fireplace warmth, empty streets perfect for photography, and the rare joy of local life unperformed. Cooler (10-15°C) but rarely cold. Many hotels close; Alachi stays open."
+      }
+    },
     "beach": "Alaçatı Beach - 10 minutes",
     "center": "Town Center - 5 minutes walk",
     "windsurf": "Windsurf Beach - 15 minutes",

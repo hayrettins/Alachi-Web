@@ -13,23 +13,57 @@
     },
     "HomePage": {
         "hero": {
-            "title": "Alaçatı'yı Dört Mevsim Yaşayın",
-            "subtitle": "Feng Shui ve Chi felsefesinden ilham alan Alachi Otel, özgün mimarisi ve Urlachi Çiftliği'nden gelen organik kahvaltısı ile huzurlu bir lüks sunuyor",
-            "bookNow": "Rezervasyon Yap"
+            "title": "Alachi Otel",
+            "subtitle": "Feng Shui ve Alaçatı'nın Buluştuğu Yer",
+            "description": "Kadim Feng Shui prensiplerinin Alaçatı'nın canlı ruhuyla uyum içinde olduğu butik taş otelimizde huzuru deneyimleyin. Otantik Türk misafirperverliğini, kardeş işletmemiz Urlachi Çiftliği'nden tarladan sofraya organik lezzetleri ve Ege mimarisinin zamansız güzelliğini keşfedin.",
+            "bookNow": "Rezervasyon Yap",
+            "cta": "Sığınağımızı Keşfedin"
         },
         "philosophy": {
-            "title": "Kadim Bilgelik Modern Lüksle Buluşuyor",
-            "description": "Alaçatı'nın tek Feng Shui tasarımlı oteli Alachi, uyumlu enerji akışı, geleneksel taş mimarisi ve doğa ile bütünleşen bir yaşam sunuyor"
+            "title": "Feng Shui Felsefesi",
+            "subtitle": "Tasarımda Uyum",
+            "description": "Alachi Otel, Alaçatı'nın tamamen Feng Shui prensiplerine göre tasarlanmış ilk ve tek konaklama yeridir. Her taşın yerleşimi, her pencerenin yönü, her bahçe yolu, pozitif enerjiyi (Chi) yönlendirmek ve derin bir huzur ortamı yaratmak için özenle işlenmiştir. Mimarimiz sadece barındırmaz, aynı zamanda besler. Kadim Rum taş duvarları tarihi solurken, Feng Shui dokunuşlarımız doğal enerji akışına rehberlik ederek misafirlerin içgüdüsel olarak dengelenmiş, yenilenmiş ve hem toprağa hem de Ege rüzgarına bağlı hissettikleri bir atmosfer yaratır.",
+            "principles": {
+                "balance": {
+                    "title": "Denge ve Akış",
+                    "description": "Her oda ve ortak alan, Feng Shui'nin dengeli elementler prensibini izleyerek doğal ışıktan en üst düzeyde yararlanacak ve termal konforu koruyacak şekilde konumlandırılmıştır."
+                },
+                "nature": {
+                    "title": "Doğa Bağlantısı",
+                    "description": "Bahçelerimiz, enerji yolları, meditasyon köşeleri ve zihni sakinleştiren görsel bir uyum yaratmak için düzenlenmiş yerel Akdeniz bitkilerini içerir."
+                },
+                "restoration": {
+                    "title": "Enerji Yenilenmesi",
+                    "description": "Taş duvarlar gün boyunca ısıyı emer ve geceleri serbest bırakır, böylece vücudunuzun sirkadiyen döngüleriyle uyumlu doğal bir nefes alma ritmi yaratır."
+                }
+            }
         },
         "features": {
             "title": "Alachi Deneyimi",
+            "subtitle": "Olağanüstü Konaklamanın Altı Temel Taşı",
             "alacati": {
                 "title": "Alaçatı'nın Kalbi",
-                "description": "Egenin en büyüleyici kasabasında dört mevsim tatil, huzur ve eğlence"
+                "description": "Alaçatı'nın tarihi merkezinde, ikonik taş yel değirmenleri, arnavut kaldırımlı sokaklar ve dünyanın dört bir yanından sörfçüleri çeken efsanevi Ege rüzgarlarıyla çevrili. Sanat atölyelerine, sahil tavernalarına ve ünlü Cumartesi pazarına 10 dakikadan kısa sürede yürüyün."
             },
             "breakfast": {
-                "title": "Tarladan Sofraya Kahvaltı",
-                "description": "Her sabah Urlachi Çiftliği'mizden gelen taptaze organik ürünlerle hazırlanan eşsiz kahvaltı"
+                "title": "Urlachi Tarladan Sofraya",
+                "description": "Güne, Urla'daki kardeş işletmemiz Urlachi Çiftliği'nden o sabah toplanan ürünlerle hazırlanan organik bir Türk kahvaltısı ile başlayın. Güneşte olgunlaşmış domatesler, soğuk sıkım zeytinyağı, çiftlik yumurtaları, kır çiçeği balı ve Türk güneşi tadında ev yapımı reçeller."
+            },
+            "hamam": {
+                "title": "Otantik Türk Hamamı",
+                "description": "Geleneksel hamamımızda 500 yıllık Türk banyo ritüelini deneyimleyin. Mükemmel sıcaklıktaki mermer, okaliptüs kokulu buhar ve uzman kese uygulaması, ardından zeytinyağlı sabun masajı. Bu bir spa taklidi değil, korunan kültürel bir mirastır."
+            },
+            "design": {
+                "title": "Feng Shui Sığınağı",
+                "description": "Her tasarım tercihi sağlığınıza hizmet eder. Odalar sabah güneşi ve akşam meltemi için en uygun yönlere bakar. Taş duvarlar sıcaklığı doğal olarak dengeler. Bahçe yolları tefekkür yürüyüşlerine rehberlik eder. Daha derin uyuyun, dinç uyanın, yenilenmiş olarak ayrılın."
+            },
+            "seasonal": {
+                "title": "Mevsimsel Uyum",
+                "description": "Bahar kır çiçeklerini ve Ot Festivali'ni getirir. Yaz, rüzgar sörfü enerjisiyle atar. Sonbahar hasat huzurunu ve Enginar Festivali'ni sunar. Kış sizi hamam sıcaklığı ve yerel samimiyetle sarar. Her mevsim farklı bir Alaçatı'yı ortaya çıkarır, hepsi güzeldir."
+            },
+            "garden": {
+                "title": "Meditasyon Bahçeleri",
+                "description": "Yüzyıllık zeytin ağaçları, kokulu yaseminler ve Feng Shui prensiplerine göre tasarlanmış meditasyon bölümleriyle gizli avlular. Sabah yoga alanı, öğleden sonra okuma köşeleri, akşam yıldız izleme noktaları. Sığınağımızdaki özel vahanız."
             },
             "urlachi": {
                 "title": "Urlachi Çiftliği Bağlantısı",
@@ -42,23 +76,21 @@
             "pool": {
                 "title": "Mevsimsel Konfor",
                 "description": "Yazın havuz keyfi, kışın şömine sıcaklığı - her mevsimde ayrıcalıklı konfor"
-            },
-            "design": {
-                "title": "Feng Shui Tasarımı",
-                "description": "Pozitif enerji akışını ve iç huzuru destekleyen uyumlu yaşam alanları"
-            },
-            "garden": {
-                "title": "Huzurlu Bahçeler",
-                "description": "Yemyeşil bitkiler ve begonvillerle çevrili sakin bir sığınak"
             }
         },
+        "urlachiSection": {
+            "title": "Urlachi Çiftliği Hikayesi",
+            "subtitle": "Tarlalarımızdan Sofranıza",
+            "description": "Yirmi kilometre güneyde, Urla'nın yemyeşil kırsalında, kardeş işletmemiz Urlachi, onarıcı bir organik çiftlik ve butik konukevi işletiyor. O sabah orada yetişenler, öğleden sonra kahvaltı sofranıza gelir; aracı yok, depolama yok, ödün yok. Bu pazarlama sloganı değil, aileden aileye bir özen. Güneşten henüz ısınmış domatesler. En lezzetli zamanında toplanan otlar. Serbest gezen tavuklardan yumurtalar. Türk köyleri yüzyıllardır böyle beslendi ve şimdi Alachi'de siz de böyle besleneceksiniz.",
+            "link": "Urlachi Çiftliği'ni Keşfedin"
+        },
         "events": {
-            "title": "Alaçatı Etkinlikleri & Festivalleri",
-            "subtitle": "Alaçatı'nın en ünlü festivallerinde bizimle kalın",
-            "herbFestival": "Alaçatı Ot Festivali",
-            "surfFestival": "Alaçatı Sörf Festivali",
-            "artichokeFestival": "Urla Enginar Festivali",
-            "tastingAlacati": "Tasting Alaçatı",
+            "title": "Alaçatı & Urla Festivalleri",
+            "subtitle": "Yerel Kültürü Deneyimleyin",
+            "herbFestival": "Alaçatı Ot Festivali - 18-20 Nisan 2026. Ege otlarını atölye çalışmaları, tadımlar ve geleneksel şifa uygulamalarıyla kutlayın. Sokaklar adaçayı, kekik ve yaban kekiği kokularıyla dolar.",
+            "surfFestival": "Alaçatı Sörf Festivali - 15-17 Ağustos 2026. Uluslararası rüzgar sörfçüleri ve uçurtma sörfçüleri, Alaçatı'nın efsanevi rüzgarlarında yarışıyor. Plaj partileri, canlı müzik ve adrenalin dolu enerji.",
+            "artichokeFestival": "Urla Enginar Festivali - 2-4 Mayıs 2026. Çiftlik turları, yemek pişirme gösterileri ve tadabileceğiniz en iyi enginar yemekleriyle Urla'nın ünlü enginar hasat kutlaması.",
+            "tastingAlacati": "Tasting Alaçatı Yemek Festivali",
             "fishingFest": "Alaçatı Balık Festivali"
         },
         "cta": {
@@ -78,11 +110,6 @@
             "title": "Misafir Yorumları",
             "subtitle": "Yeni Alachi deneyimini ilk yaşayanlardan olun",
             "placeholder": "Bizi ziyaret edin ve hikayenizi paylaşın."
-        },
-        "urlachiSection": {
-            "title": "Tarlamızdan Sofranıza",
-            "description": "Kardeş çiftliğimiz Urlachi, kahvaltı sofranız için %100 organik ürünler sağlıyor. Günlük toplanan zeytinler, yumurtalar ve sebzelerle gerçek Ege lezzetini deneyimleyin.",
-            "link": "Urlachi'yi Keşfedin"
         }
     },
     "Rooms": {
@@ -152,25 +179,69 @@
     },
     "Amenities": {
         "title": "Otel Olanakları",
-        "pool": {
-            "title": "Açık Havuz",
-            "description": "Bahçeler, şezlonglar ve Ege atmosferi ile çevrili sezonluk açık havuz"
+        "hero": {
+            "title": "Alachi Konfor Dünyası",
+            "subtitle": "Her Detay Sizin İyiliğiniz İçin Tasarlandı"
         },
         "hamam": {
-            "title": "Türk Hamamı",
-            "description": "Otantik mermer ve uzman terapistler eşliğinde geleneksel Türk hamamı deneyimi"
+            "title": "Geleneksel Türk Hamamı",
+            "description": "Otantik mermer hamamımızda 500 yıllık banyo geleneğine adım atın. Ritüel, gözeneklerinizi açmak için buharla başlar, ardından ölü deriyi atan ve dolaşımı uyaran kapsamlı bir kese uygulaması gelir. Sonrasında zeytinyağlı sabunla lüks bir köpük masajı, serin suyla durulama ve Türk çayı ile dinlenme süresi. Bu geleneği taklit eden modern bir spa değil; büyükannelerinden el almış eğitimli natırlar tarafından gerçekleştirilen gerçek bir seremonidir. Ortadaki ısıtılmış mermer göbek taşı, nesillerdir yorgun gezginleri ısıtıyor. Tam deneyim için 90 dakika ayırın. Cildiniz günlerce ışıldayacak.",
+            "features": [
+                "Otantik mermer göbek taşı",
+                "Geleneksel kaba kese uygulaması",
+                "Zeytinyağlı sabun köpük masajı",
+                "Bireysel seanslar veya özel rezervasyonlar",
+                "İkramlık Türk çayı ve dinlenme süresi",
+                "Randevu ile çiftlere özel hamam deneyimi"
+            ]
         },
         "spa": {
-            "title": "SPA Hizmetleri",
-            "description": "Huzurlu bir ortamda masaj, vücut bakımları ve wellness ritüelleri"
+            "title": "Alachi SPA & Wellness",
+            "description": "Hamamın ötesinde, spamız Ege botaniği ile harmanlanmış çağdaş bakım hizmetleri sunar. Yerel zeytinyağı ve lavanta kullanan aromaterapi masajları, enerji dengesini sağlayan refleksoloji seansları veya Urlachi çiftliği balı ve bitkileriyle yapılan yüz bakımları arasından seçim yapın. Tüm bakımlar Feng Shui prensiplerini içerir; yatak konumu, esansiyel yağ seçimi ve rahatlamayı artıran enerji akışı teknikleri. Bakımlarınızı önceden ayırtın; terapistlerimiz yoğun sezonda oldukça talep görmektedir.",
+            "features": [
+                "Aromaterapi masajı (60/90 dk)",
+                "Türk zeytinyağlı vücut bakımları",
+                "Urlachi balı ve bitki özlü yüz bakımları",
+                "Refleksoloji ve enerji dengeleme",
+                "Çiftler için bakım odası",
+                "Bahçe masaj kameriyesi (sezonluk)"
+            ]
+        },
+        "pool": {
+            "title": "Sezonluk Açık Havuz",
+            "description": "Havuzumuz Mayıs'tan Ekim'e kadar hizmet vermekte olup, Alaçatı'nın sıcak aylarında serinletici bir kaçış sunar. Sabah güneşini ve öğleden sonra gölgesini yakalamak için Feng Shui prensiplerine göre konumlandırılan havuz alanı, rahat şezlonglar, havuz başı servisi ve meditasyon bahçeleri manzarasına sahiptir. Su sıcaklığı doğal olarak korunur; serinletmek için yeterince soğuk, keyif almak için yeterince ılık. Bu olimpik bir yüzme havuzu değil; süzülmek, okumak ve gökyüzünün renk değişimini izlemek için tefekkür dolu bir alandır. Çocuklar gözetim altında kabul edilir.",
+            "features": [
+                "Sezonluk hizmet (Mayıs-Ekim)",
+                "Doğal sıcaklık düzenlemesi",
+                "Havuz başı içecek ve atıştırmalık servisi",
+                "Bahçe manzarası ve zeytin ağacı gölgesi",
+                "Şezlonglar ve gün yatakları",
+                "Havlu servisi dahil"
+            ]
         },
         "breakfast": {
-            "title": "Organik Kahvaltı",
-            "description": "Urlachi Çiftliği'nden günlük gelen taze sebzeler, peynirler ve reçeller"
+            "title": "Organik Türk Kahvaltısı",
+            "description": "Türk kahvaltısı bir öğün değil; bir ritüel, bir felsefe, bir bereket kutlamasıdır. Alachi'de bu geleneği, çoğu Urlachi Çiftliği'nden temin edilen 30'dan fazla çeşitle onurlandırıyoruz. Hayal edin: çıtır kabuklu köy ekmeği dilimleri, olması gerektiği renkte çiftlik tereyağı, eski kaşar ve kremamsı lor dahil altı çeşit peynir, kendi ağaçlarımızdan toplanan zeytinler, güneşte kurutulmuş domatesler, gerçekten sebze tadında salatalık ve domates dilimleri, sipariş üzerine pişirilen serbest gezen tavuk yumurtaları, yaz meyvelerini saklayan ev yapımı reçeller, kır çiçeği balı, taze Ege otları, sigara böreği ve sınırsız Türk çayı veya kahvesi. Diyet kısıtlamaları mı? Memnuniyetle uyum sağlıyoruz; vegan, glutensiz, neye ihtiyacınız varsa. Kahvaltı 11'e kadar servis edilir çünkü sabahlar aceleye getirilmemelidir.",
+            "features": [
+                "30+ çeşit Türk kahvaltısı serpme",
+                "Günlük Urlachi Çiftliği organik ürünleri",
+                "Serbest gezen tavuk yumurtası, artizan peynirler",
+                "Ev yapımı reçeller ve köy ekmeği",
+                "Vegan ve glutensiz seçenekler",
+                "Bahçede veya yemek salonunda 07:30-11:00 arası servis"
+            ]
         },
         "garden": {
-            "title": "Bahçeler",
-            "description": "Oturma alanları ve çiçek açan begonvillerle bezeli peyzajlı bahçeler"
+            "title": "Feng Shui Bahçeleri",
+            "description": "Bahçelerimiz dekorasyon değil; enerjinizi yenilemek için tasarlanmış terapötik alanlardır. Yollar, adımınızı yavaşlatmak ve zihninizi sakinleştirmek için nazikçe kıvrılır. Oturma alanları, Feng Shui ustalarının güçlü Chi akışı tespit ettiği yerlere konumlandırılmıştır. Asırlık zeytin ağaçları benekli gölge ve topraklama enerjisi sağlar. Yasemin, biberiye ve lavanta siz geçerken aromaterapi yayar. Gizli köşeler meditasyon veya günlük tutmaya davet eder. Sabah yoga alanı, öğleden sonra okuma köşeleri, akşam yıldız izleme noktaları; her saat yeni bir büyü ortaya çıkarır. Bahçeler Akdeniz ritimlerini izler: baharda canlı, yazın gür, sonbaharda altın sarısı, kışın sessizce güzel.",
+            "features": [
+                "Feng Shui enerji akışı tasarımı",
+                "Asırlık zeytin ağaçları",
+                "Meditasyon ve yoga alanları",
+                "Yerel Akdeniz bitkileri",
+                "Çoklu oturma alanları",
+                "Akşam ambiyans aydınlatması"
+            ]
         },
         "parking": {
             "title": "Ücretsiz Otopark",
@@ -180,6 +251,53 @@
     "Location": {
         "title": "Alaçatı'yı Keşfedin",
         "nearbyTitle": "Yakındaki Gezilecek Yerler",
+        "hero": {
+            "title": "Mükemmel Konum",
+            "subtitle": "Alaçatı'nın Huzurla Buluştuğu Yer"
+        },
+        "intro": "Alachi, bu Ege mücevherini tanımlayan ikonik taş yel değirmenleri ve arnavut kaldırımlı sokaklarla çevrili tarihi Alaçatı'nın kalbinde yer alır. Ancak merkezi konumumuza rağmen, Feng Shui tasarımımız bir sessizlik sığınağı yaratır; canlı kafelere ve sanat dükkanlarına sadece birkaç adım uzaktasınız, ancak kapılarımızdan içeri girdiğiniz an dünya yumuşar.",
+        "distances": {
+            "title": "Ulaşım",
+            "items": {
+                "center": "Alaçatı Merkez: 800m (10 dakika yürüme)",
+                "ilicaBeach": "Ilıca Plajı (sörf): 4km (8 dakika sürüş)",
+                "urla": "Urla Kasabası & Şarap Evleri: 12km (15 dakika sürüş)",
+                "cesme": "Çeşme Marina: 10km (12 dakika sürüş)",
+                "airport": "İzmir Adnan Menderes Havalimanı: 80km (45 dakika sürüş)"
+            }
+        },
+        "experiences": {
+            "windsurfing": {
+                "title": "Rüzgar Sörfü Başkenti",
+                "description": "Alaçatı, Mayıs'tan Eylül'e kadar esen istikrarlı termal rüzgarlarıyla rüzgar sörfçüleri arasında dünyaca ünlüdür. Ilıca Plajı uluslararası yarışmalara ve sayısız sörf okuluna ev sahipliği yapar. Daha önce hiç denememiş olsanız bile, Alaçatı'nın düz deniz koyu öğrenmek için mükemmel bir yerdir."
+            },
+            "wineries": {
+                "title": "Urla Bağ Yolu",
+                "description": "On beş dakika güneyde, Urla'nın mikrokliması Bornova Misketi gibi yerel üzümlerden olağanüstü şaraplar üretir. Aile işletmesi şarap evlerini gezin, şarap yapımcılarıyla tadımlar yapın ve Urla'nın neden yeni Napa Vadisi olarak anıldığını keşfedin."
+            },
+            "culture": {
+                "title": "Taş Mimari",
+                "description": "Alaçatı'nın Rum taş evleri ve yel değirmenleri yaşayan müzelerdir. Arnavut kaldırımlı sokaklarda dolaşın, begonvillerle kaplı duvarları fotoğraflayın, el dokuması tekstil ürünleri alışverişi yapın ve yüzyıllara tanıklık etmiş avlularda Türk kahvesi yudumlayın."
+            }
+        },
+        "seasonal": {
+            "spring": {
+                "title": "Bahar (Mart-Mayıs)",
+                "description": "Kır çiçekleri tepeleri örter, Ot Festivali Ege bitkilerini kutlar, sıcaklıklar mükemmel seviyelerde (18-25°C) seyreder ve şarap imalathaneleri sezonu açar. Daha az kalabalık, daha düşük fiyatlar, maksimum güzellik."
+            },
+            "summer": {
+                "title": "Yaz (Haziran-Ağustos)",
+                "description": "Zirve sezon canlı bir enerji getirir: rüzgar sörfçüleri Ilıca Koyu'nu doldurur, plaj kulüpleri sabaha kadar müzik çalar ve Sörf Festivali uluslararası sporcuları çeker. Sıcak günler (28-35°C) sürekli deniz meltemiyle serinler. Önceden rezervasyon yapın."
+            },
+            "autumn": {
+                "title": "Sonbahar (Eylül-Kasım)",
+                "description": "Enginar Festivali Urla hasadını onurlandırır, üzüm mevsimi şarap turları ve taze şarap demektir, sıcaklıklar yumuşar (20-28°C), kalabalıklar azalır ve yerel halk köylerini geri alır. Ziyaret etmek için gizli en iyi zaman."
+            },
+            "winter": {
+                "title": "Kış (Aralık-Şubat)",
+                "description": "Turist cilası olmadan otantik Alaçatı'yı görün. Sıcak hamam seansları, şömine sıcaklığı, fotoğrafçılık için mükemmel boş sokaklar ve yerel yaşamın nadir neşesi. Serin (10-15°C) ama nadiren soğuk. Birçok otel kapanır; Alachi açık kalır."
+            }
+        },
         "beach": "Alaçatı Plajı - 10 dakika",
         "center": "Çarşı Merkezi - 5 dakika yürüme",
         "windsurf": "Sörf Okulları - 15 dakika",
