@@ -1,0 +1,12 @@
+{
+    "Navbar": {
+        "home": "Ana Sayfa",
+        "rooms": "Odalar",
+        "dining": "Yeme & İçme",
+        "contact": "İletişim",
+        "book": "Rezervasyon"
+    },
+    "Home": {
+        "welcome": "Cennete Hoşgeldiniz"
+    }
+}

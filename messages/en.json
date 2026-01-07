@@ -1,0 +1,12 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "dining": "Dining",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "Home": {
+    "welcome": "Welcome to Paradise"
+  }
+}
