@@ -1,7 +1,6 @@
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { setRequestLocale } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { BookingButton } from '@/components/ui/BookingButton';
 import { generateHotelSchema, generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/schema';
 import {
@@ -17,9 +16,10 @@ import {
   Camera
 } from 'lucide-react';
 
-export default function Home({ params: { locale } }: { params: { locale: string } }) {
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   setRequestLocale(locale);
-  const t = useTranslations('HomePage');
+  const t = await getTranslations('HomePage');
 
   return (
     <div className="flex flex-col min-h-screen">

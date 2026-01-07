@@ -88,37 +88,65 @@
   "Rooms": {
     "title": "Rooms & Suites",
     "subtitle": "Each room designed with Feng Shui principles for harmony and rest",
+    "bookNow": "Check Availability",
+    "policies": {
+      "title": "Hotel Policies",
+      "checkIn": "Check-in: 14:00",
+      "checkOut": "Check-out: 12:00",
+      "smoking": "Smoking: Non-smoking rooms",
+      "pets": "Pets: Not allowed",
+      "children": "Children: Welcome",
+      "extraBed": "Extra Bed: Available on request"
+    },
+    "included": {
+      "title": "Included in Every Stay",
+      "breakfast": "Organic Farm Breakfast",
+      "wifi": "High-Speed WiFi",
+      "parking": "Private Valet Parking",
+      "ac": "Air Conditioning",
+      "pool": "Pool & Garden Access",
+      "concierge": "24/7 Concierge"
+    },
     "standard": {
       "name": "Standard Stone Room",
-      "description": "Authentic Alaçatı stone walls, traditional architecture, modern amenities",
-      "features": [
-        "King or Twin beds",
-        "Stone architecture",
-        "Garden view",
-        "Free WiFi",
-        "Mini bar",
-        "Safe"
+      "size": "25 m²",
+      "occupancy": "Max 2 Adults",
+      "description": "Experience the authentic charm of Alaçatı in our Standard Stone Rooms. Featuring original stone walls that keep the room naturally cool in summer and warm in winter, these rooms are designed with Feng Shui principles to ensure a restful energy flow. Enjoy views of our tranquil courtyard or garden.",
+      "amenities": [
+        "King or Twin Beds",
+        "Garden Courtyard View",
+        "Rain Shower",
+        "Organic Textures",
+        "Air Conditioning",
+        "Free High-Speed WiFi"
       ]
     },
     "deluxe": {
       "name": "Deluxe Suite",
-      "description": "Spacious suite with sitting area, balcony, and premium furnishings",
-      "features": [
-        "King bed",
-        "Separate sitting area",
-        "Private balcony",
-        "Premium amenities",
-        "Nespresso machine"
+      "size": "35 m²",
+      "occupancy": "Max 2 Adults + 1 Child",
+      "description": "Our Deluxe Suites offer an elevated level of luxury with extra space and premium amenities. Each suite features a separate seating area perfect for relaxation, a private French balcony overlooking the village, and a Nespresso machine for your morning coffee ritual.",
+      "amenities": [
+        "King Bed",
+        "Private Balcony",
+        "Seating Area",
+        "Nespresso Machine",
+        "Premium Toiletries",
+        "Bathrobes & Slippers"
       ]
     },
     "family": {
-      "name": "Family Room",
-      "description": "Perfect for families, connecting rooms available",
-      "features": [
-        "2 bedrooms",
-        "Family bathroom",
-        "Extra space",
-        "Kid-friendly"
+      "name": "Family Stone Suite",
+      "size": "45 m²",
+      "occupancy": "Max 4 Guests",
+      "description": "Ideal for families or groups of friends, our Family Stone Suite consists of two connecting rooms that offer both privacy and togetherness. With two bathrooms and ample space, it provides a comfortable home-away-from-home experience in the heart of Alaçatı.",
+      "amenities": [
+        "2 Connected Bedooms",
+        "2 Bathrooms",
+        "Spacious Layout",
+        "Family Friendly",
+        "Soundproof Walls",
+        "Mini Bar"
       ]
     }
   },

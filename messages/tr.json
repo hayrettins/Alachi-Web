@@ -88,37 +88,65 @@
     "Rooms": {
         "title": "Odalar & Süitler",
         "subtitle": "Her oda, uyum ve dinlenme için Feng Shui prensipleriyle tasarlandı",
+        "bookNow": "Müsaitlik Kontrol Et",
+        "policies": {
+            "title": "Otel Politikaları",
+            "checkIn": "Giriş: 14:00",
+            "checkOut": "Çıkış: 12:00",
+            "smoking": "Sigara: İçilmez",
+            "pets": "Evcil Hayvan: Kabul edilmiyor",
+            "children": "Çocuklar: Kabul edilir",
+            "extraBed": "Ek Yatak: Talep üzerine"
+        },
+        "included": {
+            "title": "Konaklamaya Dahil Olanlar",
+            "breakfast": "Organik Çiftlik Kahvaltısı",
+            "wifi": "Yüksek Hızlı WiFi",
+            "parking": "Özel Vale Otopark",
+            "ac": "Klima",
+            "pool": "Havuz & Bahçe Erişimi",
+            "concierge": "7/24 Konsiyerj"
+        },
         "standard": {
             "name": "Standart Taş Oda",
-            "description": "Otantik Alaçatı taş duvarları, geleneksel mimari, modern olanaklar",
-            "features": [
-                "King veya İkiz yatak",
-                "Taş mimari",
-                "Bahçe manzarası",
-                "Ücretsiz WiFi",
-                "Mini bar",
-                "Kasa"
+            "size": "25 m²",
+            "occupancy": "Maks 2 Yetişkin",
+            "description": "Alaçatı'nın otantik cazibesini Standart Taş Odalarımızda yaşayın. Yazın serin, kışın sıcak tutan orijinal taş duvarlara sahip bu odalar, huzurlu bir enerji akışı sağlamak için Feng Shui prensipleriyle tasarlanmıştır. Sakin avlu veya bahçe manzarasının keyfini çıkarın.",
+            "amenities": [
+                "King veya İkiz Yataklar",
+                "Bahçe Avlu Manzarası",
+                "Yağmur Duş",
+                "Organik Dokular",
+                "Klima",
+                "Ücretsiz WiFi"
             ]
         },
         "deluxe": {
             "name": "Deluxe Süit",
-            "description": "Oturma alanı, balkon ve birinci sınıf mobilyalarla geniş süit",
-            "features": [
-                "King yatak",
-                "Ayrı oturma alanı",
-                "Özel balkon",
-                "Premium bukletler",
-                "Nespresso makinesi"
+            "size": "35 m²",
+            "occupancy": "Maks 2 Yetişkin + 1 Çocuk",
+            "description": "Deluxe Süitlerimiz, ekstra alan ve birinci sınıf olanaklarla lüksü bir üst seviyeye taşır. Her süitte rahatlama için ayrı bir oturma alanı, köy manzaralı özel Fransız balkonu ve sabah kahvesi ritüeliniz için Nespresso makinesi bulunur.",
+            "amenities": [
+                "King Yatak",
+                "Özel Balkon",
+                "Oturma Alanı",
+                "Nespresso Makinesi",
+                "Premium Bukletler",
+                "Bornoz & Terlik"
             ]
         },
         "family": {
-            "name": "Aile Odası",
-            "description": "Aileler için ideal, bağlantılı oda seçeneği",
-            "features": [
-                "2 yatak odası",
-                "Aile banyosu",
-                "Ekstra geniş alan",
-                "Çocuk dostu"
+            "name": "Aile Taş Süiti",
+            "size": "45 m²",
+            "occupancy": "Maks 4 Misafir",
+            "description": "Aileler veya arkadaş grupları için ideal olan Aile Taş Süitimiz, hem mahremiyet hem de birliktelik sunan iki bağlantılı odadan oluşur. İki banyosu ve geniş alanıyla Alaçatı'nın kalbinde ev konforunu yaşatır.",
+            "amenities": [
+                "2 Bağlantılı Yatak Odası",
+                "2 Banyo",
+                "Geniş Oturum",
+                "Aile Dostu",
+                "Ses Yalıtımlı Duvarlar",
+                "Mini Bar"
             ]
         }
     },

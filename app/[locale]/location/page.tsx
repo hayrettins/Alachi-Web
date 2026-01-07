@@ -1,6 +1,6 @@
-import { useTranslations } from 'next-intl';
+
 import Image from 'next/image';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { BookingButton } from '@/components/ui/BookingButton';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateEventSchema } from '@/lib/schema';
 import {
@@ -13,10 +13,11 @@ import {
     Camera
 } from 'lucide-react';
 
-export default function LocationPage({ params: { locale } }: { params: { locale: string } }) {
+export default async function LocationPage({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
     setRequestLocale(locale);
-    const t = useTranslations('LocationPage');
-    const tHome = useTranslations('HomePage.events'); // Re-use event titles
+    const t = await getTranslations('LocationPage');
+    const tHome = await getTranslations('HomePage.events'); // Re-use event titles
 
     return (
         <div className="bg-white min-h-screen">

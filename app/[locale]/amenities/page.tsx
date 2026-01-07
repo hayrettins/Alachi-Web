@@ -1,6 +1,6 @@
-import { useTranslations } from 'next-intl';
+
 import Image from 'next/image';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { BookingButton } from '@/components/ui/BookingButton';
 import { generateHotelSchema, generateBreadcrumbSchema } from '@/lib/schema';
 import {
@@ -15,9 +15,10 @@ import {
     Check
 } from 'lucide-react';
 
-export default function AmenitiesPage({ params: { locale } }: { params: { locale: string } }) {
+export default async function AmenitiesPage({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
     setRequestLocale(locale);
-    const t = useTranslations('Amenities');
+    const t = await getTranslations('Amenities');
 
     const amenitiesList = [
         {
