@@ -18,6 +18,7 @@ export function Navbar() {
                     <div className="hidden md:flex space-x-8 items-center">
                         <Link href="/" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors uppercase tracking-wider">{t('home')}</Link>
                         <Link href="/rooms" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors uppercase tracking-wider">{t('rooms')}</Link>
+                        <Link href="/location" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors uppercase tracking-wider">{t('location')}</Link>
                         <Link href="/dining" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors uppercase tracking-wider">{t('dining')}</Link>
                         <Link href="/contact" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors uppercase tracking-wider">{t('contact')}</Link>
                         {/* CTA Button */}

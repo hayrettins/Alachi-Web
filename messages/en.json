@@ -2,6 +2,7 @@
   "Navbar": {
     "home": "Home",
     "rooms": "Rooms",
+    "location": "Location",
     "dining": "Dining",
     "contact": "Contact",
     "book": "Book Now"
@@ -249,6 +250,10 @@
     }
   },
   "Location": {
+    "meta": {
+      "title": "Location & Nearby Attractions | Alachi Hotel",
+      "description": "Discover Alachi Hotel's prime location in the heart of Alaçatı, steps from windmills and a short drive to world-class windsurfing beaches."
+    },
     "title": "Discover Alaçatı",
     "nearbyTitle": "Nearby Attractions",
     "hero": {
@@ -267,84 +272,105 @@
       }
     },
     "experiences": {
+      "title": "Discover Alaçatı",
       "windsurfing": {
         "title": "Windsurfing Capital",
-        "description": "Alaçatı is world-famous among windsurfers for consistent thermal winds that blow May through September. İlıca Beach hosts international competitions and numerous surf schools. Even if you've never tried, Alaçatı's flat-water bay makes it the perfect place to learn."
+        "description": "Alaçatı is world-famous among windsurfers for consistent thermal winds that blow May through September. İlıca Beach hosts international competitions and numerous surf schools. Even if you've never tried, Alaçatı's flat-water bay makes it the perfect place to learn.",
+        "bestSeason": "Best Wind: May-Oct",
+        "schools": "5+ Schools nearby"
       },
       "wineries": {
         "title": "Urla Wine Route",
-        "description": "Fifteen minutes south, Urla's microclimate produces exceptional wines from indigenous grapes like Bornova Misketi. Tour family-owned wineries, taste vintages with winemakers, and discover why Urla is being called the new Napa Valley."
+        "description": "Fifteen minutes south, Urla's microclimate produces exceptional wines from indigenous grapes like Bornova Misketi. Tour family-owned wineries, taste vintages with winemakers, and discover why Urla is being called the new Napa Valley.",
+        "recommended": "Try Bornova Misketi",
+        "tour": "Tours Available"
       },
       "culture": {
         "title": "Stone Architecture",
-        "description": "Alaçatı's Greek stone houses and windmills are living museums. Wander cobblestone streets, photograph bougainvillea-draped walls, shop for hand-woven textiles, and sip Turkish coffee in courtyards that have witnessed centuries."
+        "description": "Alaçatı's Greek stone houses and windmills are living museums. Wander cobblestone streets, photograph bougainvillea-draped walls, shop for hand-woven textiles, and sip Turkish coffee in courtyards that have witnessed centuries.",
+        "tip": "Sunset at Windmills"
       }
     },
     "seasonal": {
+      "title": "Seasonal Guide",
       "spring": {
         "title": "Spring (March-May)",
-        "description": "Wildflowers blanket the hills, the Herb Festival celebrates Aegean botanicals, temperatures hover around perfect (18-25°C), and wineries open their doors for the season. Fewer crowds, lower prices, maximum beauty."
+        "weather": "Mild (18-25°C)",
+        "description": "Wildflowers blanket the hills, the Herb Festival celebrates Aegean botanicals, temperatures hover around perfect (18-25°C), and wineries open their doors for the season. Fewer crowds, lower prices, maximum beauty.",
+        "highlights": "Herb Festival"
       },
       "summer": {
         "title": "Summer (June-August)",
-        "description": "Peak season brings vibrant energy: windsurfers fill İlıca Bay, beach clubs play music until dawn, and the Surf Festival draws international athletes. Hot days (28-35°C) cooled by constant sea breeze. Book ahead."
+        "weather": "Hot (28-35°C)",
+        "description": "Peak season brings vibrant energy: windsurfers fill İlıca Bay, beach clubs play music until dawn, and the Surf Festival draws international athletes. Hot days (28-35°C) cooled by constant sea breeze. Book ahead.",
+        "highlights": "Surf & Sun"
       },
       "autumn": {
         "title": "Autumn (September-November)",
-        "description": "The Artichoke Festival honors Urla's harvest, grape season means winery tours and fresh wine, temperatures mellow (20-28°C), crowds thin, and locals reclaim their village. The secret best time to visit."
+        "weather": "Warm (20-28°C)",
+        "description": "The Artichoke Festival honors Urla's harvest, grape season means winery tours and fresh wine, temperatures mellow (20-28°C), crowds thin, and locals reclaim their village. The secret best time to visit.",
+        "highlights": "Harvest & Wine"
       },
       "winter": {
         "title": "Winter (December-February)",
-        "description": "See authentic Alaçatı without tourist veneer. Cozy hamam sessions, fireplace warmth, empty streets perfect for photography, and the rare joy of local life unperformed. Cooler (10-15°C) but rarely cold. Many hotels close; Alachi stays open."
+        "weather": "Cool (10-15°C)",
+        "description": "See authentic Alaçatı without tourist veneer. Cozy hamam sessions, fireplace warmth, empty streets perfect for photography, and the rare joy of local life unperformed. Cooler (10-15°C) but rarely cold. Many hotels close; Alachi stays open.",
+        "highlights": "Cozy & Quiet"
       }
+    },
+    "events": {
+      "title": "2026 Events",
+      "otFestivali": {
+        "name": "Herb Festival",
+        "dates": "Apr 18-20",
+        "location": "Alaçatı",
+        "description": "Celebrating wild herbs"
+      },
+      "enginarFestival": {
+        "name": "Artichoke Festival",
+        "dates": "May 2-4",
+        "location": "Urla",
+        "description": "Gastronomy & Harvest"
+      },
+      "surfFestival": {
+        "name": "Surf Festival",
+        "dates": "Aug 15-17",
+        "location": "Ilıca Bay",
+        "description": "Windsurf Competition"
+      }
+    },
+    "transportation": {
+      "title": "Getting Here",
+      "airport": {
+        "title": "Airport Transfer",
+        "description": "VIP Transfer from ADB Airport (45 min)",
+        "price": "approx €60"
+      },
+      "car": {
+        "title": "Car Rental",
+        "description": "Available at Airport",
+        "companies": "Avis, Hertz, etc"
+      },
+      "dolmus": {
+        "title": "Local Minibus",
+        "description": "Frequent service to beaches",
+        "routes": "Every 20 mins"
+      },
+      "walking": {
+        "title": "Walking",
+        "description": "Best for town center"
+      }
+    },
+    "cta": {
+      "title": "Plan Your Visit Today",
+      "description": "Book your stay.",
+      "button": "Book Now"
     },
     "beach": "Alaçatı Beach - 10 minutes",
     "center": "Town Center - 5 minutes walk",
     "windsurf": "Windsurf Beach - 15 minutes",
     "izmir": "İzmir Airport - 45 minutes",
     "cesme": "Çeşme Marina - 20 minutes"
-  },
-  "LocationPage": {
-    "hero": {
-      "title": "Discover Alaçatı",
-      "subtitle": "Nestled in the heart of history, steps away from the Aegean sea breeze"
-    },
-    "quickFacts": {
-      "title": "Quick Distances",
-      "walk": "5 min walk to Town Center",
-      "beach": "10 min drive to Beaches",
-      "surf": "15 min to Windsurf Centers",
-      "airport": "45 min to İzmir ADB Airport"
-    },
-    "attractions": {
-      "title": "What to Do in Alaçatı",
-      "market": {
-        "title": "Alaçatı Saturday Market",
-        "desc": "Famous local market with fresh produce, textiles, and antiques."
-      },
-      "windmills": {
-        "title": "Windmills",
-        "desc": "Iconic stone windmills dating back to the 19th century, offering panoramic views."
-      },
-      "beach": {
-        "title": "Ilıca & Alaçatı Beaches",
-        "desc": "Crystal clear turquoise waters and white sandy beaches."
-      },
-      "surf": {
-        "title": "World Class Surfing",
-        "desc": "One of the world's best spots for windsurfing and kitesurfing."
-      }
-    },
-    "transport": {
-      "title": "Getting Here",
-      "airport": "From İzmir Adnan Menderes Airport (ADB): 45-minute drive via O-31 highway.",
-      "transfer": "Private VIP transfer service available upon request.",
-      "parking": "Valet parking available for hotel guests."
-    },
-    "cta": {
-      "title": "Plan Your Visit Today",
-      "button": "Book Now"
-    }
   },
   "Contact": {
     "title": "Get in Touch",
