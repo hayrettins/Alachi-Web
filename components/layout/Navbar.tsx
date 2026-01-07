@@ -1,6 +1,7 @@
 import { Link } from '@/i18n/routing';
 import { Menu } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { BookingButton } from '@/components/ui/BookingButton';
 
 export function Navbar() {
     const t = useTranslations('Navbar');
@@ -20,9 +21,9 @@ export function Navbar() {
                         <Link href="/dining" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors uppercase tracking-wider">{t('dining')}</Link>
                         <Link href="/contact" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors uppercase tracking-wider">{t('contact')}</Link>
                         {/* CTA Button */}
-                        <Link href="/rooms" className="ml-4 px-6 py-2 bg-slate-900 text-white text-sm font-medium uppercase tracking-wider hover:bg-slate-800 transition-colors">
+                        <BookingButton className="ml-4 px-6 py-2 bg-slate-900 text-white text-sm font-medium uppercase tracking-wider hover:bg-slate-800 transition-colors">
                             {t('book')}
-                        </Link>
+                        </BookingButton>
                     </div>
 
                     {/* Mobile Button */}

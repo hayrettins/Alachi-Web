@@ -1,5 +1,4 @@
 import { Mail, MapPin, Phone } from 'lucide-react';
-import { ContactForm } from '@/components/features/ContactForm';
 import { setRequestLocale } from 'next-intl/server';
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
@@ -11,9 +10,9 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             <div className="max-w-4xl mx-auto">
                 <h1 className="text-4xl font-bold font-heading uppercase tracking-widest text-center text-slate-900 mb-12">Contact Us</h1>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div className="max-w-2xl mx-auto">
                     {/* Info */}
-                    <div className="space-y-8">
+                    <div className="space-y-8 text-center">
                         <div>
                             <h3 className="text-xl font-bold uppercase tracking-wider mb-4">Get in Touch</h3>
                             <p className="text-slate-600">
@@ -21,7 +20,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                             </p>
                         </div>
 
-                        <div className="space-y-6">
+                        <div className="space-y-6 inline-block text-left">
                             <div className="flex items-start space-x-4">
                                 <MapPin className="mt-1 text-slate-900 w-5 h-5 flex-shrink-0" />
                                 <p className="text-slate-600 leading-relaxed">1234 Sokak, No: 5 <br />Alacati, Izmir, Turkey</p>
@@ -36,9 +35,6 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                             </div>
                         </div>
                     </div>
-
-                    {/* Form */}
-                    <ContactForm />
                 </div>
             </div>
         </div>
