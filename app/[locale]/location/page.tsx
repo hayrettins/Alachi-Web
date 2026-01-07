@@ -433,19 +433,7 @@ export default async function LocationPage({
                 </div>
             </section>
 
-            {/* SECTION 8: Final CTA */}
-            <section className="cta py-24 bg-teal-900 text-white text-center">
-                <div className="container mx-auto px-4 max-w-3xl">
-                    <h2 className="text-4xl font-bold font-heading uppercase tracking-widest mb-6">{t('cta.title')}</h2>
-                    <p className="text-xl mb-12 font-light text-teal-100">{t('cta.description')}</p>
-                    <Link
-                        href={`/${locale}/rooms`}
-                        className="inline-block bg-white text-teal-900 font-bold uppercase tracking-widest text-lg px-10 py-4 rounded hover:bg-teal-50 transition-colors"
-                    >
-                        {t('cta.button')}
-                    </Link>
-                </div>
-            </section>
+
         </main>
     );
 }

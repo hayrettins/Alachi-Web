@@ -213,24 +213,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
 
-      {/* 8. FINAL CTA */}
-      <section className="py-24 bg-teal-800 text-white text-center px-4">
-        <div className="max-w-3xl mx-auto space-y-8">
-          <h2 className="text-4xl font-bold font-heading uppercase tracking-widest">
-            {t('cta.title')}
-          </h2>
-          <p className="text-xl text-teal-100">
-            {t('cta.description')}
-          </p>
-          <BookingButton className="inline-block px-10 py-4 bg-white text-teal-900 font-bold uppercase tracking-widest hover:bg-teal-50 transition-colors rounded shadow-lg text-lg">
-            {t('cta.button')}
-          </BookingButton>
-          <div className="flex justify-center space-x-8 mt-8 text-teal-200 text-sm font-medium uppercase tracking-wider">
-            <span>+90 232 716 66 66</span>
-            <span>info@alachihotel.com</span>
-          </div>
-        </div>
-      </section>
+
 
       <script
         type="application/ld+json"

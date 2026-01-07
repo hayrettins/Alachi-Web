@@ -17,6 +17,7 @@ const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 export const metadata: Metadata = {
     title: 'Alachi Hotel | Luxury in Alacati',
     description: 'Experience the finest hospitality in Alacati, Izmir.',
+    metadataBase: new URL('https://alachi-hotel.com'),
 };
 
 export default async function LocaleLayout({

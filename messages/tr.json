@@ -265,8 +265,8 @@
             "title": "Ulaşım",
             "items": {
                 "center": "Alaçatı Merkez: 800m (10 dakika yürüme)",
-                "ilicaBeach": "Ilıca Plajı (sörf): 4km (8 dakika sürüş)",
-                "urla": "Urla Kasabası & Şarap Evleri: 12km (15 dakika sürüş)",
+                "beach": "Ilıca Plajı (sörf): 4km (8 dakika sürüş)",
+                "wineries": "Urla Kasabası & Şarap Evleri: 12km (15 dakika sürüş)",
                 "cesme": "Çeşme Marina: 10km (12 dakika sürüş)",
                 "airport": "İzmir Adnan Menderes Havalimanı: 80km (45 dakika sürüş)"
             }

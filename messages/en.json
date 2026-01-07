@@ -265,8 +265,8 @@
       "title": "Getting Around",
       "items": {
         "center": "Alaçatı Center: 800m (10-minute walk)",
-        "ilicaBeach": "İlıca Beach (windsurfing): 4km (8-minute drive)",
-        "urla": "Urla Town & Wineries: 12km (15-minute drive)",
+        "beach": "İlıca Beach (windsurfing): 4km (8-minute drive)",
+        "wineries": "Urla Town & Wineries: 12km (15-minute drive)",
         "cesme": "Çeşme Marina: 10km (12-minute drive)",
         "airport": "İzmir Adnan Menderes Airport: 80km (45-minute drive)"
       }
