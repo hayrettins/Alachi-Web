@@ -1,6 +1,10 @@
 import Image from 'next/image';
+import { setRequestLocale } from 'next-intl/server';
 
-export default function DiningPage() {
+export default async function DiningPage({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    setRequestLocale(locale);
+
     return (
         <div className="bg-slate-50 min-h-screen">
             {/* Header */}

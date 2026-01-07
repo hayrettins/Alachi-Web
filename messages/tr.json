@@ -8,5 +8,10 @@
     },
     "Home": {
         "welcome": "Cennete Hoşgeldiniz"
+    },
+    "Booking": {
+        "check_in": "Giriş Tarihi",
+        "guests": "Misafir",
+        "check_availability": "Müsaitlik Kontrol Et"
     }
 }

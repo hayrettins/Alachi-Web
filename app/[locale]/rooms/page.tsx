@@ -25,7 +25,12 @@ const rooms = [
     }
 ];
 
-export default function RoomsPage() {
+import { setRequestLocale } from 'next-intl/server';
+
+export default async function RoomsPage({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    setRequestLocale(locale);
+
     return (
         <div className="bg-white min-h-screen pb-20">
             <div className="relative bg-slate-900 h-[40vh] flex items-center justify-center">

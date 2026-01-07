@@ -8,5 +8,10 @@
   },
   "Home": {
     "welcome": "Welcome to Paradise"
+  },
+  "Booking": {
+    "check_in": "Check In",
+    "guests": "Guests",
+    "check_availability": "Check Availability"
   }
 }

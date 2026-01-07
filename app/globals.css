@@ -3,18 +3,33 @@
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
   --font-heading: var(--font-outfit);
 }
 
 @layer base {
   :root {
+    /* Alacati Teal & Stone Palette */
     --background: hsl(0 0% 100%);
-    --foreground: hsl(222.2 84% 4.9%);
+    --foreground: hsl(200 50% 10%);
+    /* Deep Teal/Blue Black */
+
+    /* Primary: Vibrant Alacati Teal */
+    --primary: hsl(175 60% 35%);
+    --primary-foreground: hsl(0 0% 100%);
+
+    /* Accents */
+    --accent: hsl(175 40% 90%);
+    --accent-foreground: hsl(175 60% 30%);
   }
 
   .dark {
-    --background: hsl(222.2 84% 4.9%);
+    /* Not prioritizing dark mode for now, but keeping structure */
+    --background: hsl(200 50% 10%);
     --foreground: hsl(0 0% 100%);
+    --primary: hsl(175 50% 50%);
+    --primary-foreground: hsl(0 0% 100%);
   }
 }
 

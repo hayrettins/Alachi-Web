@@ -1,6 +1,11 @@
 import { Mail, MapPin, Phone } from 'lucide-react';
+import { ContactForm } from '@/components/features/ContactForm';
+import { setRequestLocale } from 'next-intl/server';
 
-export default function ContactPage() {
+export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    setRequestLocale(locale);
+
     return (
         <div className="bg-white min-h-screen py-24 px-4">
             <div className="max-w-4xl mx-auto">
@@ -33,25 +38,7 @@ export default function ContactPage() {
                     </div>
 
                     {/* Form */}
-                    <div className="bg-slate-50 p-8 rounded-lg border border-slate-100 shadow-sm">
-                        <form className="space-y-6">
-                            <div>
-                                <label className="block text-xs font-bold text-slate-900 mb-2 uppercase tracking-wider">Name</label>
-                                <input type="text" className="w-full p-3 border border-slate-200 bg-white focus:border-slate-900 outline-none transition-colors" placeholder="Your Name" />
-                            </div>
-                            <div>
-                                <label className="block text-xs font-bold text-slate-900 mb-2 uppercase tracking-wider">Email</label>
-                                <input type="email" className="w-full p-3 border border-slate-200 bg-white focus:border-slate-900 outline-none transition-colors" placeholder="your@email.com" />
-                            </div>
-                            <div>
-                                <label className="block text-xs font-bold text-slate-900 mb-2 uppercase tracking-wider">Message</label>
-                                <textarea className="w-full p-3 border border-slate-200 bg-white focus:border-slate-900 outline-none h-32 transition-colors resize-none" placeholder="How can we help?" />
-                            </div>
-                            <button className="w-full py-3 bg-slate-900 text-white font-bold uppercase tracking-wider text-sm hover:bg-slate-800 transition-colors">
-                                Send Message
-                            </button>
-                        </form>
-                    </div>
+                    <ContactForm />
                 </div>
             </div>
         </div>

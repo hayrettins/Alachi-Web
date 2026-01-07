@@ -1,7 +1,12 @@
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
+import { BookingWidget } from '@/components/features/BookingWidget';
+import { setRequestLocale } from 'next-intl/server';
 
-export default function Home() {
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
@@ -31,6 +36,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Booking Widget */}
+      <div className="px-4">
+        <BookingWidget />
+      </div>
 
       {/* Intro Section */}
       <section className="py-24 px-4 bg-white text-slate-900">
