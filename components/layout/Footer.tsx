@@ -16,6 +16,7 @@ export function Footer() {
                         <li><Link href="/rooms" className="hover:text-white transition-colors">Rooms & Suites</Link></li>
                         <li><Link href="/dining" className="hover:text-white transition-colors">Dining</Link></li>
                         <li><Link href="/amenities" className="hover:text-white transition-colors">Amenities</Link></li>
+                        <li><Link href="/location" className="hover:text-white transition-colors">Location</Link></li>
                         <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                     </ul>
                 </div>

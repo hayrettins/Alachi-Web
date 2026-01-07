@@ -136,6 +136,48 @@
         "izmir": "İzmir Havalimanı - 45 dakika",
         "cesme": "Çeşme Marina - 20 dakika"
     },
+    "LocationPage": {
+        "hero": {
+            "title": "Alaçatı'yı Keşfedin",
+            "subtitle": "Tarihin kalbinde, Ege rüzgarının yanı başında"
+        },
+        "quickFacts": {
+            "title": "Mesafeler",
+            "walk": "Merkeze 5 dk Yürüme",
+            "beach": "Plajlara 10 dk Sürüş",
+            "surf": "Sörf Merkezlerine 15 dk",
+            "airport": "İzmir ADB Havalimanı 45 dk"
+        },
+        "attractions": {
+            "title": "Alaçatı'da Ne Yapılır?",
+            "market": {
+                "title": "Alaçatı Pazarı",
+                "desc": "Taze ürünler, tekstil ve antikaların bulunduğu ünlü Cumartesi pazarı."
+            },
+            "windmills": {
+                "title": "Yel Değirmenleri",
+                "desc": "19. yüzyıldan kalma, panoramik manzaralar sunan ikonik taş değirmenler."
+            },
+            "beach": {
+                "title": "Ilıca & Alaçatı Plajları",
+                "desc": "Kristal berraklığında turkuaz sular ve beyaz kumlu plajlar."
+            },
+            "surf": {
+                "title": "Dünya Sınıfı Sörf",
+                "desc": "Rüzgar sörfü ve kitesurf için dünyanın en iyi noktalarından biri."
+            }
+        },
+        "transport": {
+            "title": "Ulaşım",
+            "airport": "İzmir Adnan Menderes Havalimanı'ndan (ADB): O-31 otoyolu üzerinden 45 dakikalık sürüş.",
+            "transfer": "İsteğe bağlı özel VIP transfer hizmeti mevcuttur.",
+            "parking": "Misafirlerimiz için vale park hizmeti mevcuttur."
+        },
+        "cta": {
+            "title": "Ziyaretinizi Planlayın",
+            "button": "Rezervasyon Yap"
+        }
+    },
     "Contact": {
         "title": "İletişime Geçin",
         "subtitle": "Kusursuz Alaçatı tatilinizi planlamak için buradayız",
