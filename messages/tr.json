@@ -114,68 +114,146 @@
         }
     },
     "Rooms": {
-        "title": "Odalar & Süitler",
-        "subtitle": "Her oda, uyum ve dinlenme için Feng Shui prensipleriyle tasarlandı",
+        "meta": {
+            "title": "Odalarımız | Alachi Otel Alaçatı",
+            "description": "7 farklı tipte 14 benzersiz oda: konforlu standart odalardan özel Türk hamamlı lüks superior süitlere. Geleneksel Alaçatı taş mimarisi, modern konfor."
+        },
+        "hero": {
+            "title": "Odalarımız",
+            "subtitle": "Alaçatı'nın Taş Mimarisinde Huzur"
+        },
+        "intro": {
+            "text": "Otelimiz Alaçatı'nın cumbalı oda ve taş bina geleneğinin modernize edilmiş halidir. 14 odamız, 7 farklı oda tipinde, konuk memnuniyetini ön planda tutarak tasarlanmıştır. Her oda doğal ve el yapımı masif mobilyalarla döşenmiş, Feng Shui prensipleriyle yerleştirilmiştir."
+        },
         "bookNow": "Müsaitlik Kontrol Et",
-        "policies": {
-            "title": "Otel Politikaları",
-            "checkIn": "Giriş: 14:00",
-            "checkOut": "Çıkış: 12:00",
-            "smoking": "Sigara: İçilmez",
-            "pets": "Evcil Hayvan: Kabul edilmiyor",
-            "children": "Çocuklar: Kabul edilir",
-            "extraBed": "Ek Yatak: Talep üzerine"
+        "commonAmenities": {
+            "title": "Tüm Odalarımızda Standart",
+            "items": [
+                "Kablosuz İnternet",
+                "Smart TV & Uydu Yayın",
+                "Minibar",
+                "Çay-Kahve Seti",
+                "Kasa",
+                "Buklet Banyo Ürünleri",
+                "Saç Kurutma Makinesi",
+                "Klima & Alttan Isıtma",
+                "Ses Yalıtımı",
+                "Günlük Temizlik",
+                "Karo/Mermer Zemin",
+                "Gardırop"
+            ]
         },
         "included": {
-            "title": "Konaklamaya Dahil Olanlar",
-            "breakfast": "Organik Çiftlik Kahvaltısı",
-            "wifi": "Yüksek Hızlı WiFi",
-            "parking": "Özel Vale Otopark",
-            "ac": "Klima",
-            "pool": "Havuz & Bahçe Erişimi",
-            "concierge": "7/24 Konsiyerj"
+            "title": "Fiyata Dahil",
+            "breakfast": "Organik sabah kahvaltısı",
+            "water": "Günlük 2 şişe su",
+            "teaCoffee": "Odada çay-kahve",
+            "vat": "KDV dahil"
         },
-        "standard": {
-            "name": "Standart Taş Oda",
-            "size": "25 m²",
-            "occupancy": "Maks 2 Yetişkin",
-            "description": "Alaçatı'nın otantik cazibesini Standart Taş Odalarımızda yaşayın. Yazın serin, kışın sıcak tutan orijinal taş duvarlara sahip bu odalar, huzurlu bir enerji akışı sağlamak için Feng Shui prensipleriyle tasarlanmıştır. Sakin avlu veya bahçe manzarasının keyfini çıkarın.",
-            "amenities": [
-                "King veya İkiz Yataklar",
-                "Bahçe Avlu Manzarası",
-                "Yağmur Duş",
-                "Organik Dokular",
-                "Klima",
-                "Ücretsiz WiFi"
-            ]
+        "roomTypes": {
+            "standardGround": {
+                "name": "Standart Oda",
+                "subtitle": "Giriş Katı",
+                "size": "18 m²",
+                "capacity": "2 yetişkin",
+                "bed": "Çift kişilik yatak",
+                "view": "Tarihi Alaçatı sokak manzarası",
+                "description": "Otelimizin giriş katında bulunan bu odalarımız 18 m² büyüklüğündedir. Çift kişilik tek yatak bulunmaktadır ve tarihi Alaçatı sokak manzaralıdır. Kış aylarında keyifle konaklayabilmeniz için alttan ısıtma bulunmaktadır."
+            },
+            "standardLower": {
+                "name": "Standart Oda Alt Kat",
+                "subtitle": "Alt Kat",
+                "size": "25 m²",
+                "capacity": "2 yetişkin",
+                "bed": "Çift kişilik yatak",
+                "description": "Otelimizin alt katında bulunan bu odamız 25 m² büyüklüğündedir. Çift kişilik tek yatak bulunmaktadır. Kış aylarında keyifle konaklayabilmeniz için alttan ısıtma bulunmaktadır."
+            },
+            "deluxe": {
+                "name": "Deluxe Oda",
+                "size": "22 m²",
+                "capacity": "3 yetişkin (maks.)",
+                "bed": "Çift kişilik yatak",
+                "view": "Tarihi Alaçatı sokak manzarası",
+                "description": "Bu odalarımız 22 m² büyüklüğündedir. Çift kişilik tek yatak bulunmaktadır. Delüks odalarımız tarihi Alaçatı sokak manzaralıdır. Kış aylarında keyifle konaklayabilmeniz için alttan ısıtma bulunmaktadır.",
+                "premiumAmenities": [
+                    "Bornoz & Terlik"
+                ]
+            },
+            "deluxePoolView": {
+                "name": "Havuz Manzaralı Deluxe Oda",
+                "size": "25 m²",
+                "capacity": "3 yetişkin (maks.)",
+                "bed": "Çift kişilik yatak",
+                "view": "Havuz manzarası",
+                "description": "Bu odalarımız 25 m² büyüklüğündedir. Çift kişilik tek yatak bulunmaktadır ve havuz manzaralıdır. Kış aylarında keyifle konaklayabilmeniz için alttan ısıtma bulunmaktadır.",
+                "premiumAmenities": [
+                    "Balkon",
+                    "Bornoz & Terlik",
+                    "Bahçe Manzarası"
+                ]
+            },
+            "bayWindow": {
+                "name": "Cumbalı Çift Kişilik Oda",
+                "size": "28 m²",
+                "capacity": "3 yetişkin (maks.)",
+                "bed": "Çift kişilik yatak",
+                "view": "Tarihi Alaçatı sokak veya havuz manzarası",
+                "specialFeature": "Geleneksel Alaçatı Cumbası",
+                "description": "Bu odalarımız 28 m² büyüklüğündedir. Çift kişilik tek yatak bulunmaktadır ve tarihi Alaçatı sokak veya havuz manzaralı olarak farklılık göstermektedir. Alaçatı'nın ikonik cumba mimarisi bu odalarda yaşanır. Kış aylarında keyifle konaklayabilmeniz için alttan ısıtma bulunmaktadır.",
+                "premiumAmenities": [
+                    "Cumba (Bay Window)",
+                    "Balkon",
+                    "Bornoz & Terlik"
+                ]
+            },
+            "superior": {
+                "name": "Superior Çift Kişilik Oda",
+                "size": "30 m²",
+                "capacity": "2 yetişkin",
+                "bed": "Romantik tahtlı çift kişilik yatak",
+                "view": "Havuz ve bahçe manzarası",
+                "description": "Bu odalarımız 30 m² büyüklüğündedir. Romantik tahtlı çift kişilik yatak bulunmaktadır. Havuz ve bahçe manzaralıdır. Kış aylarında keyifle konaklayabilmeniz için alttan ısıtma bulunmaktadır.",
+                "premiumAmenities": [
+                    "Romantik Tahtlı Yatak",
+                    "Extra Uzun Yatak (>2m)",
+                    "Balkon",
+                    "Bornoz & Terlik",
+                    "Havuz & Bahçe Manzarası"
+                ]
+            },
+            "superiorHamam": {
+                "name": "Türk Hamamlı ve Havuz Manzaralı Superior Oda",
+                "size": "35 m²",
+                "capacity": "3 yetişkin (maks.)",
+                "bed": "Romantik tahtlı çift kişilik yatak",
+                "view": "Havuz manzarası",
+                "specialFeature": "Özel Türk Hamamı (Odada)",
+                "description": "En lüks odamız 35 m² büyüklüğündedir. Romantik tahtlı çift kişilik yatak, özel Türk hamamı ve havuz manzarası ile eşsiz bir deneyim sunar. Kış aylarında keyifle konaklayabilmeniz için alttan ısıtma bulunmaktadır.",
+                "premiumAmenities": [
+                    "Özel Türk Hamamı",
+                    "Romantik Tahtlı Yatak",
+                    "Extra Uzun Yatak (>2m)",
+                    "Balkon/Fransız Balkon",
+                    "Premium Bukletler",
+                    "Bornoz & Terlik",
+                    "Havuz Manzarası"
+                ]
+            }
         },
-        "deluxe": {
-            "name": "Deluxe Süit",
-            "size": "35 m²",
-            "occupancy": "Maks 2 Yetişkin + 1 Çocuk",
-            "description": "Deluxe Süitlerimiz, ekstra alan ve birinci sınıf olanaklarla lüksü bir üst seviyeye taşır. Her süitte rahatlama için ayrı bir oturma alanı, köy manzaralı özel Fransız balkonu ve sabah kahvesi ritüeliniz için Nespresso makinesi bulunur.",
-            "amenities": [
-                "King Yatak",
-                "Özel Balkon",
-                "Oturma Alanı",
-                "Nespresso Makinesi",
-                "Premium Bukletler",
-                "Bornoz & Terlik"
-            ]
+        "policies": {
+            "title": "Oda Politikaları",
+            "checkIn": "Giriş: 15:00",
+            "checkOut": "Çıkış: 12:00",
+            "ageRestriction": "12 yaş ve üzeri misafirler kabul edilmektedir",
+            "pets": "Evcil hayvan kabul edilmemektedir",
+            "smoking": "Tüm odalar sigara içilmez",
+            "extraBed": "Ek yatak talebi ücretlidir",
+            "parking": "Ücretsiz otopark"
         },
-        "family": {
-            "name": "Aile Taş Süiti",
-            "size": "45 m²",
-            "occupancy": "Maks 4 Misafir",
-            "description": "Aileler veya arkadaş grupları için ideal olan Aile Taş Süitimiz, hem mahremiyet hem de birliktelik sunan iki bağlantılı odadan oluşur. İki banyosu ve geniş alanıyla Alaçatı'nın kalbinde ev konforunu yaşatır.",
-            "amenities": [
-                "2 Bağlantılı Yatak Odası",
-                "2 Banyo",
-                "Geniş Oturum",
-                "Aile Dostu",
-                "Ses Yalıtımlı Duvarlar",
-                "Mini Bar"
-            ]
+        "cta": {
+            "title": "Odanızı Seçin",
+            "subtitle": "Alaçatı'nın geleneksel taş mimarisinde huzurlu bir konaklama",
+            "button": "Müsaitliği Kontrol Et"
         }
     },
     "Amenities": {

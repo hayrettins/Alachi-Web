@@ -24,6 +24,20 @@
 .DS_Store
 *.pem
 
+# Auto-generated image files (don't commit)
+public/images/optimized/
+public/images/image-manifest.json
+
+# Keep source images out of git (too large)
+public/images/source/*.jpg
+public/images/source/*.jpeg
+public/images/source/*.png
+public/images/source/**/*.jpg
+public/images/source/**/*.jpeg
+public/images/source/**/*.png
+
+# Allow .gitkeep to preserve folder structure
+!public/images/source/.gitkeep
 # debug
 npm-debug.log*
 yarn-debug.log*

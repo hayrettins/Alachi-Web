@@ -114,68 +114,146 @@
     }
   },
   "Rooms": {
-    "title": "Rooms & Suites",
-    "subtitle": "Each room designed with Feng Shui principles for harmony and rest",
+    "meta": {
+      "title": "Our Rooms | Alachi Hotel Alaçatı",
+      "description": "14 unique rooms across 7 types, from cozy standard rooms to luxurious superior suites with private Turkish bath. Traditional Alaçatı stone architecture with modern comfort."
+    },
+    "hero": {
+      "title": "Our Rooms",
+      "subtitle": "Tranquility in Alaçatı's Stone Architecture"
+    },
+    "intro": {
+      "text": "Our hotel is the modernized version of Alaçatı's bay window and stone building tradition. Our 14 rooms across 7 distinct types are designed prioritizing guest satisfaction. Each room is furnished with natural, handmade solid wood furniture, positioned according to Feng Shui principles."
+    },
     "bookNow": "Check Availability",
-    "policies": {
-      "title": "Hotel Policies",
-      "checkIn": "Check-in: 14:00",
-      "checkOut": "Check-out: 12:00",
-      "smoking": "Smoking: Non-smoking rooms",
-      "pets": "Pets: Not allowed",
-      "children": "Children: Welcome",
-      "extraBed": "Extra Bed: Available on request"
+    "commonAmenities": {
+      "title": "Standard in All Rooms",
+      "items": [
+        "Wireless Internet",
+        "Smart TV & Satellite",
+        "Minibar",
+        "Tea/Coffee Set",
+        "In-room Safe",
+        "Toiletry Amenities",
+        "Hair Dryer",
+        "A/C & Underfloor Heating",
+        "Sound Insulation",
+        "Daily Housekeeping",
+        "Tile/Marble Flooring",
+        "Wardrobe"
+      ]
     },
     "included": {
-      "title": "Included in Every Stay",
-      "breakfast": "Organic Farm Breakfast",
-      "wifi": "High-Speed WiFi",
-      "parking": "Private Valet Parking",
-      "ac": "Air Conditioning",
-      "pool": "Pool & Garden Access",
-      "concierge": "24/7 Concierge"
+      "title": "Included in Price",
+      "breakfast": "Organic breakfast",
+      "water": "2 bottles water daily",
+      "teaCoffee": "In-room tea/coffee",
+      "vat": "VAT included"
     },
-    "standard": {
-      "name": "Standard Stone Room",
-      "size": "25 m²",
-      "occupancy": "Max 2 Adults",
-      "description": "Experience the authentic charm of Alaçatı in our Standard Stone Rooms. Featuring original stone walls that keep the room naturally cool in summer and warm in winter, these rooms are designed with Feng Shui principles to ensure a restful energy flow. Enjoy views of our tranquil courtyard or garden.",
-      "amenities": [
-        "King or Twin Beds",
-        "Garden Courtyard View",
-        "Rain Shower",
-        "Organic Textures",
-        "Air Conditioning",
-        "Free High-Speed WiFi"
-      ]
+    "roomTypes": {
+      "standardGround": {
+        "name": "Standard Room",
+        "subtitle": "Ground Floor",
+        "size": "18 m²",
+        "capacity": "2 adults",
+        "bed": "Double bed",
+        "view": "Historic Alaçatı street view",
+        "description": "Located on the ground floor, these rooms are 18 m². They feature a double bed and historic Alaçatı street views. Underfloor heating ensures comfortable winter stays."
+      },
+      "standardLower": {
+        "name": "Standard Room Lower Floor",
+        "subtitle": "Lower Floor",
+        "size": "25 m²",
+        "capacity": "2 adults",
+        "bed": "Double bed",
+        "description": "Located on the lower floor, this room is 25 m². Features a double bed with underfloor heating for winter comfort."
+      },
+      "deluxe": {
+        "name": "Deluxe Room",
+        "size": "22 m²",
+        "capacity": "3 adults (max)",
+        "bed": "Double bed",
+        "view": "Historic Alaçatı street view",
+        "description": "These rooms are 22 m² with a double bed. Deluxe rooms offer historic Alaçatı street views. Underfloor heating ensures winter comfort.",
+        "premiumAmenities": [
+          "Bathrobe & Slippers"
+        ]
+      },
+      "deluxePoolView": {
+        "name": "Deluxe Room with Pool View",
+        "size": "25 m²",
+        "capacity": "3 adults (max)",
+        "bed": "Double bed",
+        "view": "Pool view",
+        "description": "These rooms are 25 m² with a double bed and pool views. Underfloor heating provides winter comfort.",
+        "premiumAmenities": [
+          "Balcony",
+          "Bathrobe & Slippers",
+          "Garden View"
+        ]
+      },
+      "bayWindow": {
+        "name": "Double Room with Bay Window",
+        "size": "28 m²",
+        "capacity": "3 adults (max)",
+        "bed": "Double bed",
+        "view": "Historic street or pool view (varies)",
+        "specialFeature": "Traditional Alaçatı Bay Window",
+        "description": "These rooms are 28 m² with a double bed. Views vary between historic Alaçatı streets or pool. Experience Alaçatı's iconic bay window architecture. Underfloor heating for winter comfort.",
+        "premiumAmenities": [
+          "Bay Window (Cumba)",
+          "Balcony",
+          "Bathrobe & Slippers"
+        ]
+      },
+      "superior": {
+        "name": "Superior Double Room",
+        "size": "30 m²",
+        "capacity": "2 adults",
+        "bed": "Romantic canopy double bed",
+        "view": "Pool and garden view",
+        "description": "These rooms are 30 m² featuring a romantic canopy double bed. Enjoy pool and garden views. Underfloor heating ensures winter comfort.",
+        "premiumAmenities": [
+          "Romantic Canopy Bed",
+          "Extra-Long Bed (>2m)",
+          "Balcony",
+          "Bathrobe & Slippers",
+          "Pool & Garden View"
+        ]
+      },
+      "superiorHamam": {
+        "name": "Superior Room with Turkish Bath & Pool View",
+        "size": "35 m²",
+        "capacity": "3 adults (max)",
+        "bed": "Romantic canopy double bed",
+        "view": "Pool view",
+        "specialFeature": "Private Turkish Bath (In-room)",
+        "description": "Our most luxurious room at 35 m². Features a romantic canopy bed, private Turkish bath, and pool views for an exceptional experience. Underfloor heating for winter comfort.",
+        "premiumAmenities": [
+          "Private Turkish Bath",
+          "Romantic Canopy Bed",
+          "Extra-Long Bed (>2m)",
+          "Balcony/French Balcony",
+          "Premium Toiletries",
+          "Bathrobe & Slippers",
+          "Pool View"
+        ]
+      }
     },
-    "deluxe": {
-      "name": "Deluxe Suite",
-      "size": "35 m²",
-      "occupancy": "Max 2 Adults + 1 Child",
-      "description": "Our Deluxe Suites offer an elevated level of luxury with extra space and premium amenities. Each suite features a separate seating area perfect for relaxation, a private French balcony overlooking the village, and a Nespresso machine for your morning coffee ritual.",
-      "amenities": [
-        "King Bed",
-        "Private Balcony",
-        "Seating Area",
-        "Nespresso Machine",
-        "Premium Toiletries",
-        "Bathrobes & Slippers"
-      ]
+    "policies": {
+      "title": "Room Policies",
+      "checkIn": "Check-in: 15:00",
+      "checkOut": "Check-out: 12:00",
+      "ageRestriction": "Guests 12 years and older only",
+      "pets": "Pets not accepted",
+      "smoking": "All rooms non-smoking",
+      "extraBed": "Extra bed available for fee",
+      "parking": "Free parking"
     },
-    "family": {
-      "name": "Family Stone Suite",
-      "size": "45 m²",
-      "occupancy": "Max 4 Guests",
-      "description": "Ideal for families or groups of friends, our Family Stone Suite consists of two connecting rooms that offer both privacy and togetherness. With two bathrooms and ample space, it provides a comfortable home-away-from-home experience in the heart of Alaçatı.",
-      "amenities": [
-        "2 Connected Bedooms",
-        "2 Bathrooms",
-        "Spacious Layout",
-        "Family Friendly",
-        "Soundproof Walls",
-        "Mini Bar"
-      ]
+    "cta": {
+      "title": "Choose Your Room",
+      "subtitle": "A peaceful stay in Alaçatı's traditional stone architecture",
+      "button": "Check Availability"
     }
   },
   "Amenities": {
