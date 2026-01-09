@@ -1,5 +1,4 @@
-
-import Image from 'next/image';
+import OptimizedImage from '@/components/OptimizedImage';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { BookingButton } from '@/components/ui/BookingButton';
 import { generateHotelSchema, generateBreadcrumbSchema } from '@/lib/schema';
@@ -33,31 +32,37 @@ export default async function AmenitiesPage({ params }: { params: Promise<{ loca
         {
             key: 'pool',
             icon: Waves,
+            image: 'amenities/pool.jpg',
             features: ['Sun Loungers', 'Pool Bar Service', 'Towels Provided', 'Daily Maintenance'] // Specific features could be translated too if added to JSON
         },
         {
             key: 'hamam',
             icon: Wind,
+            image: 'amenities/hamam.jpg',
             features: ['Traditional Scrub', 'Foam Massage', 'Private Sessions', 'Relaxation Area']
         },
         {
             key: 'spa',
             icon: Sparkles,
+            image: 'amenities/spa.jpg',
             features: ['Aromatherapy', 'Deep Tissue Massage', 'Organic Oils', 'Couple Treatments']
         },
         {
             key: 'breakfast',
             icon: Coffee,
+            image: 'amenities/breakfast.jpg',
             features: ['Organic Produce', 'Home-made Jams', 'Fresh Sourdough', 'Local Cheeses']
         },
         {
             key: 'garden',
             icon: TreePine,
+            image: 'amenities/garden.jpg',
             features: ['Bougainvillea', 'Seating Areas', 'Night Lighting', 'Tranquil Atmosphere']
         },
         {
             key: 'parking',
             icon: Car,
+            image: 'contact/hero-contact.jpg', // Using contact/exterior shot as it likely shows parking area or entrance
             features: ['Secure Area', 'Valet Service', '24/7 Access', 'Free for Guests']
         }
     ];
@@ -66,12 +71,11 @@ export default async function AmenitiesPage({ params }: { params: Promise<{ loca
         <div className="bg-white min-h-screen">
             {/* Hero Section */}
             <div className="relative h-[50vh] flex items-center justify-center">
-                <Image
-                    src="/hero.jpg" // Fallback to hero for now as instructed (placeholders)
+                <OptimizedImage
+                    src="amenities/hero-amenities.jpg"
                     alt="Alachi Amenities"
-                    fill
-                    className="object-cover"
                     priority
+                    className="object-cover w-full h-full"
                 />
                 <div className="absolute inset-0 bg-black/40" />
                 <div className="relative z-10 text-center text-white px-4">
@@ -110,11 +114,10 @@ export default async function AmenitiesPage({ params }: { params: Promise<{ loca
                             <div key={amenity.key} className="group relative bg-slate-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                                 {/* Image Area */}
                                 <div className="relative h-64 w-full overflow-hidden">
-                                    <Image
-                                        src="/hero.jpg" // Using hero placeholder for all until images available
+                                    <OptimizedImage
+                                        src={amenity.image}
                                         alt={t(`${amenity.key}.title`)}
-                                        fill
-                                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                        className="object-cover transition-transform duration-700 group-hover:scale-105 w-full h-full"
                                     />
                                     <div className="absolute top-4 left-4 bg-white/90 backdrop-blur p-3 rounded-full shadow-lg">
                                         <Icon className="w-6 h-6 text-slate-900" />

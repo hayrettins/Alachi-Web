@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import OptimizedImage from '@/components/OptimizedImage';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { BookingButton } from '@/components/ui/BookingButton';
 import { generateRoomSchema, generateBreadcrumbSchema } from '@/lib/schema';
@@ -48,6 +48,16 @@ export default async function RoomsPage({ params }: { params: Promise<{ locale: 
         'superiorHamam'
     ];
 
+    const roomImages: Record<string, string> = {
+        'standardGround': 'rooms/standard-ground-1.jpg',
+        'standardLower': 'rooms/standard-lower-1.jpg',
+        'deluxe': 'rooms/deluxe-1.jpg',
+        'deluxePoolView': 'rooms/deluxe-pool-1.jpg',
+        'bayWindow': 'rooms/bay-window-1.jpg',
+        'superior': 'rooms/superior-1.jpg',
+        'superiorHamam': 'rooms/superior-hamam-1.jpg',
+    };
+
     const policies = [
         { key: 'checkIn', icon: Clock },
         { key: 'checkOut', icon: Clock },
@@ -81,7 +91,7 @@ export default async function RoomsPage({ params }: { params: Promise<{ locale: 
         <div className="bg-white min-h-screen pb-20">
             {/* Hero Section */}
             <div className="relative bg-slate-900 h-[50vh] flex items-center justify-center mb-24">
-                <Image src="/hero.jpg" alt="Rooms Header" fill className="object-cover opacity-60" priority />
+                <OptimizedImage src="rooms/hero-rooms.jpg" alt="Rooms Header" className="object-cover opacity-60 w-full h-full" priority />
                 <div className="relative z-10 text-center text-white px-4">
                     <h1 className="text-4xl md:text-6xl font-bold font-heading uppercase tracking-widest drop-shadow-xl mb-4">
                         {t('hero.title')}
@@ -107,11 +117,10 @@ export default async function RoomsPage({ params }: { params: Promise<{ locale: 
                             <div key={roomId} className={`flex flex-col ${isEven ? 'md:flex-row' : 'md:flex-row-reverse'} gap-12 items-center transform transition-all duration-500 hover:scale-[1.01]`}>
                                 {/* Image Section */}
                                 <div className="w-full md:w-1/2 relative h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-2xl group">
-                                    <Image
-                                        src="/hero.jpg" // Placeholder until real images are mapped
+                                    <OptimizedImage
+                                        src={roomImages[roomId]}
                                         alt={t(`roomTypes.${roomId}.name`)}
-                                        fill
-                                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                        className="object-cover transition-transform duration-700 group-hover:scale-105 w-full h-full"
                                     />
                                     {/* Badge for specific features */}
                                     {['bayWindow', 'superiorHamam'].includes(roomId) && (

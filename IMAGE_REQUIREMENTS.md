@@ -6,6 +6,12 @@ This document lists ALL images needed for the website. Place them in `/public/im
 
 ---
 
+### **LOGOS & CERTIFICATES** [NEW]
+- [ ] `logos/logo.png` - Main website logo (transparent background preferred)
+- [ ] `logos/favicon-source.png` - High-res icon for favicon generation
+- [ ] `certificates/tripadvisor.png` - TripAdvisor award
+- [ ] `certificates/safe-tourism.png` - Safe Tourism certificate
+
 ### **HOMEPAGE** (5 images)
 - [ ] `hero-home.jpg` (1920x1080) - Main hero image: pool or exterior view
 - [ ] `urlachi-farm.jpg` (800x600) - Organic farm breakfast feature
@@ -34,7 +40,7 @@ This document lists ALL images needed for the website. Place them in `/public/im
 
 ---
 
-### **AMENITIES PAGE** (8 images)
+### **AMENITIES PAGE** (10 images)
 - [ ] `amenities/hero-amenities.jpg` (1920x1080) - Amenities hero
 - [ ] `amenities/hamam.jpg` (800x600) - Turkish bath interior
 - [ ] `amenities/spa.jpg` (800x600) - Spa treatment area
@@ -43,6 +49,8 @@ This document lists ALL images needed for the website. Place them in `/public/im
 - [ ] `amenities/garden.jpg` (800x600) - Hotel garden
 - [ ] `amenities/fireplace.jpg` (800x600) - Winter fireplace lounge
 - [ ] `amenities/urlachi-farm.jpg` (800x600) - Urlachi organic farm
+- [ ] `amenities/lobby-main.jpg` (800x600) - Main Lobby [NEW]
+- [ ] `amenities/lobby-entrance.jpg` (800x600) - Lobby Entrance [NEW]
 
 ---
 
@@ -101,9 +109,5 @@ This document lists ALL images needed for the website. Place them in `/public/im
 
 ## 📊 EXPECTED PERFORMANCE
 
-With 35 images (hero + rooms + amenities + location):
-- Original JPEGs: ~35 × 3MB = **105 MB**
-- After WebP optimization: ~35 × 800KB = **28 MB** (73% reduction)
-- After AVIF optimization: ~35 × 600KB = **21 MB** (80% reduction)
-
-Target LCP: **< 2.5 seconds** on mobile with blur placeholders
+With 40+ images:
+- Target LCP: **< 2.5 seconds** on mobile with blur placeholders

@@ -1,5 +1,5 @@
 import { Link } from '@/i18n/routing';
-import Image from 'next/image';
+import OptimizedImage from '@/components/OptimizedImage';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { BookingButton } from '@/components/ui/BookingButton';
 import { generateHotelSchema, generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/schema';
@@ -36,12 +36,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
       {/* 1. HERO SECTION */}
       <section className="relative h-screen w-full flex items-center justify-center text-center text-white">
-        <Image
-          src="/hero.jpg"
+        <OptimizedImage
+          src="hero-home.jpg"
           alt="Alachi Hotel Courtyard"
-          fill
-          className="object-cover"
           priority
+          className="object-cover w-full h-full"
         />
         <div className="absolute inset-0 bg-black/30" />
         <div className="relative z-10 px-4 max-w-4xl mx-auto space-y-6">
@@ -113,10 +112,10 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
           <div className="relative h-96 md:h-[500px] w-full row-start-2 md:row-start-1">
             <div className="absolute top-0 left-0 w-3/4 h-3/4 relative z-10">
-              <Image src="/hero.jpg" alt="Farm Produce" fill className="object-cover rounded-lg shadow-xl" />
+              <OptimizedImage src="amenities/urlachi-farm.jpg" alt="Farm Produce" className="object-cover rounded-lg shadow-xl w-full h-full" />
             </div>
             <div className="absolute bottom-0 right-0 w-3/4 h-3/4 relative z-0 translate-x-4 translate-y-4">
-              <Image src="/hero.jpg" alt="Organic Breakfast" fill className="object-cover rounded-lg shadow-lg opacity-80" />
+              <OptimizedImage src="amenities/breakfast.jpg" alt="Organic Breakfast" className="object-cover rounded-lg shadow-lg opacity-80 w-full h-full" />
             </div>
           </div>
           <div className="space-y-8">
@@ -161,7 +160,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             </div>
           </div>
           <div className="relative h-96 w-full rounded-lg overflow-hidden border border-slate-700">
-            <Image src="/hero.jpg" alt="Alachi Lifestyle" fill className="object-cover opacity-80" />
+            <OptimizedImage src="pool-evening.jpg" alt="Alachi Lifestyle" className="object-cover opacity-80 w-full h-full" />
           </div>
         </div>
       </section>
@@ -185,7 +184,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               { key: 'herbFestival', month: 'October' },
             ].map((event, idx) => (
               <div key={idx} className="group relative h-64 overflow-hidden rounded-lg cursor-pointer">
-                <Image src="/hero.jpg" alt={t(`events.${event.key}`)} fill className="object-cover transition-transform duration-700 group-hover:scale-110" />
+                <OptimizedImage src="amenities/garden.jpg" alt={t(`events.${event.key}`)} className="object-cover transition-transform duration-700 group-hover:scale-110 w-full h-full" />
                 <div className="absolute inset-0 bg-black/50 group-hover:bg-black/40 transition-colors" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-4">
                   <span className="text-sm font-bold uppercase tracking-widest mb-2 bg-teal-600 px-2 py-1 rounded">{event.month}</span>

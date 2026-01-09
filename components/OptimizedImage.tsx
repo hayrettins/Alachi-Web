@@ -60,11 +60,6 @@ export default function OptimizedImage({
     return (
         <div
             className={`relative overflow-hidden ${className}`}
-            style={{
-                backgroundImage: imageData.blur ? `url(${imageData.blur})` : undefined,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-            }}
         >
             <picture>
                 {/* AVIF (best compression, modern browsers) */}
@@ -85,8 +80,8 @@ export default function OptimizedImage({
                         objectFit,
                         width: '100%',
                         height: '100%',
-                        transition: 'opacity 0.3s ease-in-out',
-                        opacity: isLoaded ? 1 : 0
+                        transition: priority ? 'none' : 'opacity 0.3s ease-in-out',
+                        opacity: (priority || isLoaded) ? 1 : 0
                     }}
                     onLoad={() => setIsLoaded(true)}
                     onError={() => setHasError(true)}

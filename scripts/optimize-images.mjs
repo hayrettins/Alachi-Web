@@ -8,12 +8,12 @@ const CONFIG = {
     sourceDir: './public/images/source',
     outputDir: './public/images/optimized',
     manifestPath: './public/images/image-manifest.json',
-    webpQuality: 85,
-    avifQuality: 80,
-    maxWidth: 1920,
-    maxHeight: 1920,
+    webpQuality: 90,
+    avifQuality: 85,
+    maxWidth: 2560,
+    maxHeight: 2560,
     blurWidth: 20,
-    blurQuality: 30,
+    blurQuality: 40,
     supportedFormats: ['.jpg', '.jpeg', '.png']
 };
 
@@ -68,24 +68,35 @@ async function optimizeImage(inputPath) {
     const webpPath = path.join(webpDir, `${fileName}.webp`);
     const avifPath = path.join(avifDir, `${fileName}.avif`);
 
-    // Generate WebP
-    await sharp(inputPath)
-        .resize(CONFIG.maxWidth, CONFIG.maxHeight, {
+    // Determine if it's a logo or certificate (needs higher detail, less compression)
+    const isLogoOrCert = inputPath.includes('logos') || inputPath.includes('certificates');
+    const qualityModifier = isLogoOrCert ? 100 : CONFIG.webpQuality;
+    const avifQualityModifier = isLogoOrCert ? 95 : CONFIG.avifQuality;
+
+    // WebP
+    let webpPipeline = sharp(inputPath);
+    if (!isLogoOrCert) {
+        webpPipeline = webpPipeline.resize(CONFIG.maxWidth, CONFIG.maxHeight, {
             fit: 'inside',
             withoutEnlargement: true
-        })
-        .webp({ quality: CONFIG.webpQuality })
+        });
+    }
+    await webpPipeline
+        .webp({ quality: qualityModifier, lossless: isLogoOrCert })
         .toFile(webpPath);
 
     const webpSize = (await fs.stat(webpPath)).size;
 
-    // Generate AVIF
-    await sharp(inputPath)
-        .resize(CONFIG.maxWidth, CONFIG.maxHeight, {
+    // AVIF
+    let avifPipeline = sharp(inputPath);
+    if (!isLogoOrCert) {
+        avifPipeline = avifPipeline.resize(CONFIG.maxWidth, CONFIG.maxHeight, {
             fit: 'inside',
             withoutEnlargement: true
-        })
-        .avif({ quality: CONFIG.avifQuality })
+        });
+    }
+    await avifPipeline
+        .avif({ quality: avifQualityModifier, lossless: isLogoOrCert })
         .toFile(avifPath);
 
     const avifSize = (await fs.stat(avifPath)).size;

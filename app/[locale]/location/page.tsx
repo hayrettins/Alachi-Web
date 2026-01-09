@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import Image from 'next/image';
+import OptimizedImage from '@/components/OptimizedImage';
 
 export async function generateMetadata({
     params
@@ -48,12 +48,11 @@ export default async function LocationPage({
         <main className="location-page bg-white">
             {/* SECTION 1: Hero with Quick Stats */}
             <section className="hero relative h-[50vh] min-h-[500px]">
-                <Image
-                    src="/hero.jpg"
+                <OptimizedImage
+                    src="location/hero-location.jpg"
                     alt={t('hero.title')}
-                    fill
-                    className="object-cover"
                     priority
+                    className="object-cover w-full h-full"
                 />
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                     <div className="text-center text-white px-4 max-w-4xl">

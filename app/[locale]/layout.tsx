@@ -18,6 +18,10 @@ export const metadata: Metadata = {
     title: 'Alachi Hotel | Luxury in Alacati',
     description: 'Experience the finest hospitality in Alacati, Izmir.',
     metadataBase: new URL('https://alachi-hotel.com'),
+    icons: {
+        icon: '/images/source/logos/favicon-source.png',
+        apple: '/images/source/logos/favicon-source.png',
+    }
 };
 
 export default async function LocaleLayout({

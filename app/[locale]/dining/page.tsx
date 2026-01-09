@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import OptimizedImage from '@/components/OptimizedImage';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -18,7 +18,12 @@ export default async function DiningPage({ params }: { params: Promise<{ locale:
         <div className="bg-slate-50 min-h-screen">
             {/* Header */}
             <div className="relative h-[50vh] w-full">
-                <Image src="/dining.jpg" alt="Alachi Dining" fill className="object-cover" priority />
+                <OptimizedImage
+                    src="amenities/breakfast.jpg"
+                    alt="Alachi Dining"
+                    priority
+                    className="object-cover w-full h-full"
+                />
                 <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute inset-0 flex items-center justify-center text-center">
                     <div className="text-white space-y-4">
@@ -42,7 +47,7 @@ export default async function DiningPage({ params }: { params: Promise<{ locale:
                         <p className="text-slate-500 text-sm italic">Daily: 08:00 - 11:00</p>
                     </div>
                     <div className="flex-1 relative h-96 w-full">
-                        <Image src="/dining.jpg" alt="Breakfast" fill className="object-cover" />
+                        <OptimizedImage src="amenities/urlachi-farm.jpg" alt="Breakfast" className="object-cover w-full h-full" />
                     </div>
                 </div>
 
@@ -59,7 +64,7 @@ export default async function DiningPage({ params }: { params: Promise<{ locale:
                     </div>
                     <div className="flex-1 relative h-96 w-full">
                         {/* Reusing Dining image for now, ideally strictly distinct but fine for MVP */}
-                        <Image src="/dining.jpg" alt="Dinner" fill className="object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+                        <OptimizedImage src="pool-evening.jpg" alt="Dinner" className="object-cover grayscale hover:grayscale-0 transition-all duration-700 w-full h-full" />
                     </div>
                 </div>
             </div>

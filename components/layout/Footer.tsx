@@ -1,12 +1,13 @@
 import { Link } from '@/i18n/routing';
 
+
 export function Footer() {
     return (
         <footer className="bg-slate-950 text-white py-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 className="text-2xl font-bold uppercase tracking-widest mb-6">Alachi</h3>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-400 text-sm leading-relaxed mb-6">
                         Experience the timeless beauty of Alacati in a setting of modern luxury and comfort.
                     </p>
                 </div>
@@ -31,7 +32,7 @@ export function Footer() {
                 <div>
                     <h4 className="font-bold uppercase tracking-wider mb-6 text-sm">Follow Us</h4>
                     <p className="text-slate-400 text-sm mb-4">Stay updated with our latest offers.</p>
-                    <div className="flex space-x-4">
+                    <div className="flex space-x-4 mb-6">
                         {/* Placeholder Social Icons */}
                         <a href="#" className="text-slate-400 hover:text-white">Instagram</a>
                         <a href="#" className="text-slate-400 hover:text-white">Facebook</a>

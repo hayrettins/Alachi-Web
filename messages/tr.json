@@ -451,24 +451,18 @@
         "cesme": "Çeşme Marina - 20 dakika"
     },
     "Contact": {
-        "title": "İletişime Geçin",
-        "subtitle": "Kusursuz Alaçatı tatilinizi planlamak için buradayız",
-        "address": "Alaçatı Mahallesi, İzmir, Türkiye",
-        "phone": "+90 232 716 66 66",
-        "email": "info@alachihotel.com",
-        "form": {
-            "name": "Ad Soyad",
-            "email": "E-posta Adresi",
-            "phone": "Telefon Numarası",
-            "message": "Mesajınız",
-            "checkIn": "Giriş Tarihi",
-            "checkOut": "Çıkış Tarihi",
-            "guests": "Misafir Sayısı",
-            "submit": "Mesaj Gönder",
-            "sending": "Gönderiliyor...",
-            "success": "Teşekkürler! 24 saat içinde size dönüş yapacağız",
-            "error": "Bir hata oluştu. Lütfen tekrar deneyin veya bizi arayın."
-        }
+        "title": "İletişim",
+        "reservations": "Rezervasyon",
+        "landlineLabel": "T:",
+        "mobileLabel": "M:",
+        "whatsappLabel": "WhatsApp",
+        "address": "Adres",
+        "viewOnMaps": "GOOGLE HARİTALARDA GÖRÜNTÜLE",
+        "email": "E-posta",
+        "addressText": "Yeni Mecidiye Mahallesi, 3046 Sokak No: 34, Alaçatı, Çeşme, İzmir, Türkiye",
+        "phoneText": "+90 232 716 66 66",
+        "whatsappText": "(0530) 452 90 51",
+        "emailText": "info@alachihotel.com"
     },
     "Footer": {
         "about": "Alachi Hakkında",
