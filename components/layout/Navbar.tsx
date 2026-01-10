@@ -2,7 +2,7 @@ import { Link } from '@/i18n/routing';
 import { Menu } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { BookingButton } from '@/components/ui/BookingButton';
-
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 import OptimizedImage from '@/components/OptimizedImage';
 
 export function Navbar() {
@@ -53,6 +53,12 @@ export function Navbar() {
                         <Link href="/location" className="text-sm font-medium text-slate-300 hover:text-white transition-colors uppercase tracking-wider">{t('location')}</Link>
                         <Link href="/dining" className="text-sm font-medium text-slate-300 hover:text-white transition-colors uppercase tracking-wider">{t('dining')}</Link>
                         <Link href="/contact" className="text-sm font-medium text-slate-300 hover:text-white transition-colors uppercase tracking-wider">{t('contact')}</Link>
+
+                        {/* Language Switcher */}
+                        <div className="ml-6">
+                            <LanguageSwitcher />
+                        </div>
+
                         {/* CTA Button */}
                         <BookingButton className="ml-4 px-6 py-2 bg-teal-700 text-white text-sm font-medium uppercase tracking-wider hover:bg-teal-600 transition-colors shadow-lg shadow-teal-900/20">
                             {t('book')}
